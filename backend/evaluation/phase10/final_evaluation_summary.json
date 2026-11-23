@@ -1,0 +1,1465 @@
+{
+  "evaluation_phase": "Phase 10 \u2014 Independent Evaluation & Quality Assurance",
+  "timestamp": "2026-11-20T07:41:04Z",
+  "gold_benchmark_size": 220,
+  "retrieval": {
+    "dataset_metadata": {
+      "total_queries": 220,
+      "statutory_eval_queries": 185,
+      "unsupported_queries_excluded": 35
+    },
+    "paradigms": {
+      "semantic_only": {
+        "p1_section_level": 0.1676,
+        "p3_section_level": 0.1441,
+        "p5_section_level": 0.0984,
+        "recall3_section_level": 0.373,
+        "recall5_section_level": 0.3892,
+        "mrr_section_level": 0.2725,
+        "ndcg3_section_level": 0.2953,
+        "ndcg5_section_level": 0.3032,
+        "p1_document_level": 0.5243,
+        "recall3_document_level": 0.7243,
+        "mrr_document_level": 0.6387,
+        "passage_hit3": 0.0703,
+        "mean_latency_ms": 1.37
+      },
+      "keyword_only": {
+        "p1_section_level": 0.3135,
+        "p3_section_level": 0.191,
+        "p5_section_level": 0.1254,
+        "recall3_section_level": 0.4378,
+        "recall5_section_level": 0.4432,
+        "mrr_section_level": 0.3716,
+        "ndcg3_section_level": 0.3907,
+        "ndcg5_section_level": 0.3924,
+        "p1_document_level": 0.6324,
+        "recall3_document_level": 0.7351,
+        "mrr_document_level": 0.6784,
+        "passage_hit3": 0.0811,
+        "mean_latency_ms": 1.12
+      },
+      "hybrid_rrf": {
+        "p1_section_level": 0.2,
+        "p3_section_level": 0.1676,
+        "p5_section_level": 0.1114,
+        "recall3_section_level": 0.4054,
+        "recall5_section_level": 0.4108,
+        "mrr_section_level": 0.3005,
+        "ndcg3_section_level": 0.329,
+        "ndcg5_section_level": 0.3293,
+        "p1_document_level": 0.6324,
+        "recall3_document_level": 0.7351,
+        "mrr_document_level": 0.6788,
+        "passage_hit3": 0.0811,
+        "mean_latency_ms": 2.37
+      },
+      "domain_reranker": {
+        "p1_section_level": 0.3135,
+        "p3_section_level": 0.1856,
+        "p5_section_level": 0.1114,
+        "recall3_section_level": 0.4108,
+        "recall5_section_level": 0.4108,
+        "mrr_section_level": 0.3604,
+        "ndcg3_section_level": 0.3753,
+        "ndcg5_section_level": 0.3753,
+        "p1_document_level": 0.6324,
+        "recall3_document_level": 0.7405,
+        "mrr_document_level": 0.6838,
+        "passage_hit3": 0.0865,
+        "mean_latency_ms": 2.44
+      }
+    },
+    "by_jurisdiction": {
+      "punjab": {
+        "count": 32,
+        "p1_section": 0.1562,
+        "r3_section": 0.5312,
+        "mrr_section": 0.3438
+      },
+      "haryana": {
+        "count": 34,
+        "p1_section": 0.2059,
+        "r3_section": 0.3235,
+        "mrr_section": 0.2549
+      },
+      "jk": {
+        "count": 26,
+        "p1_section": 0.5,
+        "r3_section": 0.5385,
+        "mrr_section": 0.5192
+      },
+      "central": {
+        "count": 92,
+        "p1_section": 0.3478,
+        "r3_section": 0.3587,
+        "mrr_section": 0.3533
+      },
+      "multi": {
+        "count": 1,
+        "p1_section": 1.0,
+        "r3_section": 1.0,
+        "mrr_section": 1.0
+      }
+    },
+    "by_language": {
+      "en": {
+        "count": 170,
+        "p1_section": 0.3412,
+        "r3_section": 0.4471,
+        "mrr_section": 0.3922
+      },
+      "hi": {
+        "count": 5,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "pa": {
+        "count": 5,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "doi": {
+        "count": 3,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "bgc": {
+        "count": 2,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "count": 32,
+        "p1_section": 0.2812,
+        "r3_section": 0.4062,
+        "mrr_section": 0.3438
+      },
+      "medium": {
+        "count": 114,
+        "p1_section": 0.1491,
+        "r3_section": 0.2544,
+        "mrr_section": 0.1988
+      },
+      "hard": {
+        "count": 39,
+        "p1_section": 0.8205,
+        "r3_section": 0.8718,
+        "mrr_section": 0.8462
+      }
+    },
+    "by_category": {
+      "governance_registration": {
+        "count": 6,
+        "p1_section": 0.5,
+        "r3_section": 0.5,
+        "mrr_section": 0.5
+      },
+      "governance_membership_rights": {
+        "count": 3,
+        "p1_section": 0.6667,
+        "r3_section": 1.0,
+        "mrr_section": 0.8333
+      },
+      "governance_disputes": {
+        "count": 8,
+        "p1_section": 0.125,
+        "r3_section": 0.625,
+        "mrr_section": 0.3542
+      },
+      "governance_compliance": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 1.0,
+        "mrr_section": 0.5
+      },
+      "governance_elections": {
+        "count": 3,
+        "p1_section": 0.6667,
+        "r3_section": 0.6667,
+        "mrr_section": 0.6667
+      },
+      "governance_settlement": {
+        "count": 2,
+        "p1_section": 0.5,
+        "r3_section": 0.5,
+        "mrr_section": 0.5
+      },
+      "governance_supersession": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 1.0,
+        "mrr_section": 0.5
+      },
+      "governance_accounts": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_liquidation": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_tenure": {
+        "count": 4,
+        "p1_section": 0.25,
+        "r3_section": 0.5,
+        "mrr_section": 0.375
+      },
+      "governance_committee": {
+        "count": 3,
+        "p1_section": 0.6667,
+        "r3_section": 0.6667,
+        "mrr_section": 0.6667
+      },
+      "governance_surcharge": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 1.0,
+        "mrr_section": 0.3333
+      },
+      "governance_audit": {
+        "count": 4,
+        "p1_section": 0.75,
+        "r3_section": 0.75,
+        "mrr_section": 0.75
+      },
+      "governance_meetings": {
+        "count": 1,
+        "p1_section": 1.0,
+        "r3_section": 1.0,
+        "mrr_section": 1.0
+      },
+      "governance_government_role": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 1.0,
+        "mrr_section": 0.5
+      },
+      "governance_membership": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_byelaws": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_funds": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_capital": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_membership_cessation": {
+        "count": 7,
+        "p1_section": 0.1429,
+        "r3_section": 0.1429,
+        "mrr_section": 0.1429
+      },
+      "governance_inspection_powers": {
+        "count": 7,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_reserve_funds": {
+        "count": 7,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_annual_meeting_notice": {
+        "count": 7,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_amendment_registration": {
+        "count": 7,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_kcc": {
+        "count": 6,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_pmfby": {
+        "count": 3,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_pacs": {
+        "count": 3,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_pmkisan": {
+        "count": 2,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_kcc_haryana": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_dairy_infrastructure": {
+        "count": 8,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_fisheries_fidf": {
+        "count": 8,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_hafed_procurement": {
+        "count": 8,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "schemes_verka_milkfed": {
+        "count": 8,
+        "p1_section": 0.0,
+        "r3_section": 1.0,
+        "mrr_section": 0.5
+      },
+      "schemes_jk_handicrafts": {
+        "count": 8,
+        "p1_section": 1.0,
+        "r3_section": 1.0,
+        "mrr_section": 1.0
+      },
+      "jurisdiction_boundary": {
+        "count": 1,
+        "p1_section": 1.0,
+        "r3_section": 1.0,
+        "mrr_section": 1.0
+      },
+      "jurisdiction_isolation": {
+        "count": 1,
+        "p1_section": 1.0,
+        "r3_section": 1.0,
+        "mrr_section": 1.0
+      },
+      "jurisdiction_scope": {
+        "count": 1,
+        "p1_section": 1.0,
+        "r3_section": 1.0,
+        "mrr_section": 1.0
+      },
+      "jurisdiction_intra_state": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "jurisdiction_conversion": {
+        "count": 1,
+        "p1_section": 1.0,
+        "r3_section": 1.0,
+        "mrr_section": 1.0
+      },
+      "jurisdiction_ut": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "jurisdiction_preemption": {
+        "count": 29,
+        "p1_section": 1.0,
+        "r3_section": 1.0,
+        "mrr_section": 1.0
+      },
+      "governance_voting": {
+        "count": 1,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      },
+      "governance_general": {
+        "count": 15,
+        "p1_section": 0.0,
+        "r3_section": 0.0,
+        "mrr_section": 0.0
+      }
+    }
+  },
+  "answer_quality": {
+    "metadata": {
+      "total_benchmark_queries": 220,
+      "statutory_queries": 186,
+      "unsupported_queries": 34,
+      "total_citations_emitted": 564,
+      "total_claims_evaluated": 1406
+    },
+    "answer_quality_metrics": {
+      "legal_correctness_rate": 0.6039,
+      "answer_groundedness_rate": 0.6257,
+      "citation_correctness_rate": 0.1016,
+      "citation_completeness_rate": 0.6882,
+      "hallucinated_citation_rate": 0.0,
+      "no_evidence_abstention_accuracy": 0.9412,
+      "jurisdiction_correctness_rate": 0.9909,
+      "practical_usefulness_score": 0.9207
+    },
+    "claim_level_metrics": {
+      "total_claims": 1406,
+      "supported_claims": 849,
+      "partially_supported_claims": 295,
+      "unsupported_claims": 262,
+      "contradicted_claims": 0,
+      "claim_groundedness_rate": 0.7087,
+      "unsupported_claim_rate": 0.1863,
+      "contradicted_claim_rate": 0.0
+    }
+  },
+  "jurisdiction_isolation": {
+    "metadata": {
+      "total_test_cases": 20,
+      "total_citations_inspected": 76
+    },
+    "metrics": {
+      "jurisdiction_decision_accuracy": 1.0,
+      "clarification_accuracy": 1.0,
+      "cross_state_leakage_count": 0,
+      "cross_state_leakage_rate": 0.0
+    },
+    "leakage_examples": [],
+    "detailed_cases": [
+      {
+        "id": "jur_pb_01",
+        "query": "What is the procedure to register a society in Ludhiana Punjab under Section 8?",
+        "user_jurisdiction": "punjab",
+        "expected_jurisdiction": "punjab",
+        "resolved_jurisdiction": "punjab",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 3,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_pb_02",
+        "query": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c \u0a35\u0a3f\u0a71\u0a1a \u0a38\u0a39\u0a3f\u0a15\u0a3e\u0a30\u0a40 \u0a38\u0a41\u0a38\u0a3e\u0a07\u0a1f\u0a40\u0a06\u0a02 \u0a26\u0a47 \u0a06\u0a21\u0a3f\u0a1f \u0a26\u0a3e \u0a15\u0a3e\u0a28\u0a42\u0a70\u0a28 \u0a15\u0a40 \u0a39\u0a48?",
+        "user_jurisdiction": "punjab",
+        "expected_jurisdiction": "punjab",
+        "resolved_jurisdiction": "punjab",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 0,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_hr_01",
+        "query": "What is the managing committee tenure in Karnal Haryana under Section 28?",
+        "user_jurisdiction": "haryana",
+        "expected_jurisdiction": "haryana",
+        "resolved_jurisdiction": "haryana",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_hr_02",
+        "query": "\u0939\u0930\u093f\u092f\u093e\u0923\u093e \u0938\u0939\u0915\u093e\u0930\u0940 \u0938\u092e\u093f\u0924\u093f \u0905\u0927\u093f\u0928\u093f\u092f\u092e 1984 \u0915\u0947 \u0924\u0939\u0924 \u0935\u093f\u0935\u093e\u0926 \u0915\u093e \u0928\u093f\u092a\u091f\u093e\u0930\u093e \u0915\u094c\u0928 \u0915\u0930\u0924\u093e \u0939\u0948?",
+        "user_jurisdiction": "haryana",
+        "expected_jurisdiction": "haryana",
+        "resolved_jurisdiction": "haryana",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_jk_01",
+        "query": "Who conducts statutory audit in Srinagar J&K under Section 63 of 1989 Act?",
+        "user_jurisdiction": "jk",
+        "expected_jurisdiction": "jk",
+        "resolved_jurisdiction": "jk",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_jk_02",
+        "query": "\u091c\u092e\u094d\u092e\u0942 \u0915\u0936\u094d\u092e\u0940\u0930 \u091a \u0938\u0939\u0915\u093e\u0930\u0940 \u0938\u092e\u093f\u0924\u093f \u0926\u0947 \u0935\u093f\u0935\u093e\u0926\u0947\u0902 \u0926\u093e \u0928\u093f\u092a\u091f\u093e\u0930\u093e \u0915\u0941\u0928 \u0915\u0930\u0926\u093e \u0910?",
+        "user_jurisdiction": "jk",
+        "expected_jurisdiction": "jk",
+        "resolved_jurisdiction": "jk",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_cen_01",
+        "query": "What are the rules for registration under Multi-State Cooperative Societies Act Section 6?",
+        "user_jurisdiction": "central",
+        "expected_jurisdiction": "central",
+        "resolved_jurisdiction": "central",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 4,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_cen_02",
+        "query": "What is the national collateral-free limit under the Kisan Credit Card scheme?",
+        "user_jurisdiction": "central",
+        "expected_jurisdiction": "central",
+        "resolved_jurisdiction": "central",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 4,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_dual_01",
+        "query": "Can a Punjab PACS participate in the Central PACS Computerization scheme?",
+        "user_jurisdiction": "punjab",
+        "expected_jurisdiction": "punjab",
+        "resolved_jurisdiction": "punjab",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 4,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_amb_01",
+        "query": "What are the minimum member requirements to register a primary cooperative society?",
+        "user_jurisdiction": "all",
+        "expected_jurisdiction": "central",
+        "resolved_jurisdiction": "central",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 0,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_amb_02",
+        "query": "How many years is the tenure of the managing committee?",
+        "user_jurisdiction": "all",
+        "expected_jurisdiction": "central",
+        "resolved_jurisdiction": "central",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 0,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_mismatch_01",
+        "query": "Under Haryana Cooperative Societies Act 1984 what is the tenure of managing committee?",
+        "user_jurisdiction": "punjab",
+        "expected_jurisdiction": "haryana",
+        "resolved_jurisdiction": "haryana",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_hostile_01",
+        "query": "Apply Punjab 1961 Act Section 55 dispute rules to resolve our society dispute in Rohtak Haryana.",
+        "user_jurisdiction": "haryana",
+        "expected_jurisdiction": "haryana",
+        "resolved_jurisdiction": "haryana",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_multistate_01",
+        "query": "Can our cooperative operate in both Punjab and Haryana under state laws?",
+        "user_jurisdiction": "all",
+        "expected_jurisdiction": "central",
+        "resolved_jurisdiction": "central",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 4,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_multistate_02",
+        "query": "Does Central MSCS Act Section 84 govern disputes for multi-state societies with branches in J&K?",
+        "user_jurisdiction": "jk",
+        "expected_jurisdiction": "central",
+        "resolved_jurisdiction": "central",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_stress_01",
+        "query": "Who is the Registrar of Cooperative Societies in Jammu and Kashmir?",
+        "user_jurisdiction": "jk",
+        "expected_jurisdiction": "jk",
+        "resolved_jurisdiction": "jk",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_stress_02",
+        "query": "What is the surcharge procedure under Section 95 of Haryana Cooperative Act?",
+        "user_jurisdiction": "haryana",
+        "expected_jurisdiction": "haryana",
+        "resolved_jurisdiction": "haryana",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_stress_03",
+        "query": "What are the voting rights under Section 19 of Punjab Cooperative Act?",
+        "user_jurisdiction": "punjab",
+        "expected_jurisdiction": "punjab",
+        "resolved_jurisdiction": "punjab",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 3,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_stress_04",
+        "query": "Can women be elected to multi-state cooperative boards under Central MSCS Act?",
+        "user_jurisdiction": "central",
+        "expected_jurisdiction": "central",
+        "resolved_jurisdiction": "central",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 5,
+        "leakage_count": 0
+      },
+      {
+        "id": "jur_stress_05",
+        "query": "Is PACS computerization mandatory in Punjab cooperatives?",
+        "user_jurisdiction": "punjab",
+        "expected_jurisdiction": "punjab",
+        "resolved_jurisdiction": "punjab",
+        "jurisdiction_correct": true,
+        "clarification_correct": true,
+        "citations_count": 4,
+        "leakage_count": 0
+      }
+    ]
+  },
+  "multilingual": {
+    "en": {
+      "language_id_accuracy": 1.0,
+      "intent_classification_accuracy": 1.0,
+      "jurisdiction_accuracy": 1.0,
+      "retrieval_recall3": 1.0,
+      "entity_preservation_rate": 0.8333,
+      "asr_provider": "local",
+      "tts_provider": "Audio Cache (Local PCM WAV)",
+      "tts_latency_ms": 8.96,
+      "dialect_ethics_disclosed": false
+    },
+    "hi": {
+      "language_id_accuracy": 0.5,
+      "intent_classification_accuracy": 0.5,
+      "jurisdiction_accuracy": 1.0,
+      "retrieval_recall3": 0.5,
+      "entity_preservation_rate": 0.1667,
+      "asr_provider": "local",
+      "tts_provider": "Audio Cache (Local PCM WAV)",
+      "tts_latency_ms": 6.79,
+      "dialect_ethics_disclosed": false
+    },
+    "pa": {
+      "language_id_accuracy": 1.0,
+      "intent_classification_accuracy": 0.5,
+      "jurisdiction_accuracy": 1.0,
+      "retrieval_recall3": 0.0,
+      "entity_preservation_rate": 0.5,
+      "asr_provider": "local",
+      "tts_provider": "Audio Cache (Local PCM WAV)",
+      "tts_latency_ms": 6.9,
+      "dialect_ethics_disclosed": false
+    },
+    "doi": {
+      "language_id_accuracy": 0.5,
+      "intent_classification_accuracy": 0.0,
+      "jurisdiction_accuracy": 1.0,
+      "retrieval_recall3": 0.5,
+      "entity_preservation_rate": 0.3333,
+      "asr_provider": "local",
+      "tts_provider": "Audio Cache (Local PCM WAV)",
+      "tts_latency_ms": 0.53,
+      "dialect_ethics_disclosed": false
+    },
+    "bgc": {
+      "language_id_accuracy": 1.0,
+      "intent_classification_accuracy": 0.5,
+      "jurisdiction_accuracy": 1.0,
+      "retrieval_recall3": 0.5,
+      "entity_preservation_rate": 0.25,
+      "asr_provider": "local",
+      "tts_provider": "Audio Cache (Local PCM WAV)",
+      "tts_latency_ms": 0.39,
+      "dialect_ethics_disclosed": false
+    }
+  },
+  "ml_models": {
+    "intent_classifier": {
+      "sample_size": 37,
+      "accuracy": 0.8919,
+      "macro_precision": 0.4181,
+      "macro_recall": 0.4074,
+      "macro_f1": 0.4118,
+      "per_class": {
+        "cooperative_registration": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "elections_governance": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "financial_assistance_kcc": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "general_cooperative": {
+          "support": 12,
+          "precision": 0.9167,
+          "recall": 0.9167,
+          "f1": 0.9167
+        },
+        "government_schemes_pmkisan": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "grievance_arbitration": {
+          "support": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "legal_information": {
+          "support": 12,
+          "precision": 0.8462,
+          "recall": 0.9167,
+          "f1": 0.88
+        },
+        "membership_rights": {
+          "support": 12,
+          "precision": 1.0,
+          "recall": 0.8333,
+          "f1": 0.9091
+        },
+        "pmfby_crop_insurance": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "labels": [
+        "cooperative_registration",
+        "elections_governance",
+        "financial_assistance_kcc",
+        "general_cooperative",
+        "government_schemes_pmkisan",
+        "grievance_arbitration",
+        "legal_information",
+        "membership_rights",
+        "pmfby_crop_insurance"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "language_identifier": {
+      "sample_size": 19,
+      "accuracy": 0.8947,
+      "macro_precision": 0.2,
+      "macro_recall": 0.1789,
+      "macro_f1": 0.1889,
+      "per_class": {
+        "en": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "hi": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pa": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "doi": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "bgc": {
+          "support": 19,
+          "precision": 1.0,
+          "recall": 0.8947,
+          "f1": 0.9444
+        }
+      },
+      "labels": [
+        "en",
+        "hi",
+        "pa",
+        "doi",
+        "bgc"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          17
+        ]
+      ]
+    },
+    "news_classifier": {
+      "sample_size": 12,
+      "accuracy": 0.75,
+      "macro_precision": 0.4,
+      "macro_recall": 0.3,
+      "macro_f1": 0.34,
+      "per_class": {
+        "administrative_notifications": {
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8
+        },
+        "agri_credit_kcc": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "coop_laws_regulations": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "coop_registration": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "crop_insurance_pmfby": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "dairy_fisheries_coop": {
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8
+        },
+        "elections_governance": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "gov_schemes": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "grievance_redressal": {
+          "support": 3,
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8
+        },
+        "subsidies_financial_aid": {
+          "support": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "labels": [
+        "administrative_notifications",
+        "agri_credit_kcc",
+        "coop_laws_regulations",
+        "coop_registration",
+        "crop_insurance_pmfby",
+        "dairy_fisheries_coop",
+        "elections_governance",
+        "gov_schemes",
+        "grievance_redressal",
+        "subsidies_financial_aid"
+      ],
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "reranker_comparison": {
+      "semantic_only": {
+        "p1_section_level": 0.1676,
+        "p3_section_level": 0.1441,
+        "p5_section_level": 0.0984,
+        "recall3_section_level": 0.373,
+        "recall5_section_level": 0.3892,
+        "mrr_section_level": 0.2725,
+        "ndcg3_section_level": 0.2953,
+        "ndcg5_section_level": 0.3032,
+        "p1_document_level": 0.5243,
+        "recall3_document_level": 0.7243,
+        "mrr_document_level": 0.6387,
+        "passage_hit3": 0.0703,
+        "mean_latency_ms": 1.37
+      },
+      "keyword_only": {
+        "p1_section_level": 0.3135,
+        "p3_section_level": 0.191,
+        "p5_section_level": 0.1254,
+        "recall3_section_level": 0.4378,
+        "recall5_section_level": 0.4432,
+        "mrr_section_level": 0.3716,
+        "ndcg3_section_level": 0.3907,
+        "ndcg5_section_level": 0.3924,
+        "p1_document_level": 0.6324,
+        "recall3_document_level": 0.7351,
+        "mrr_document_level": 0.6784,
+        "passage_hit3": 0.0811,
+        "mean_latency_ms": 1.12
+      },
+      "hybrid_rrf": {
+        "p1_section_level": 0.2,
+        "p3_section_level": 0.1676,
+        "p5_section_level": 0.1114,
+        "recall3_section_level": 0.4054,
+        "recall5_section_level": 0.4108,
+        "mrr_section_level": 0.3005,
+        "ndcg3_section_level": 0.329,
+        "ndcg5_section_level": 0.3293,
+        "p1_document_level": 0.6324,
+        "recall3_document_level": 0.7351,
+        "mrr_document_level": 0.6788,
+        "passage_hit3": 0.0811,
+        "mean_latency_ms": 2.37
+      },
+      "domain_reranker": {
+        "p1_section_level": 0.3135,
+        "p3_section_level": 0.1856,
+        "p5_section_level": 0.1114,
+        "recall3_section_level": 0.4108,
+        "recall5_section_level": 0.4108,
+        "mrr_section_level": 0.3604,
+        "ndcg3_section_level": 0.3753,
+        "ndcg5_section_level": 0.3753,
+        "p1_document_level": 0.6324,
+        "recall3_document_level": 0.7405,
+        "mrr_document_level": 0.6838,
+        "passage_hit3": 0.0865,
+        "mean_latency_ms": 2.44
+      }
+    }
+  },
+  "news_pipeline": {
+    "metadata": {
+      "total_registered_sources": 19,
+      "total_database_records": 29
+    },
+    "source_authority_metrics": {
+      "official_government_sources_count": 17,
+      "source_authority_rate": 0.8947,
+      "ssrf_safety_rate": 1.0,
+      "url_validity_rate": 0.8276
+    },
+    "document_provenance_breakdown": {
+      "verified_official_pdf_documents": 5,
+      "verified_official_press_articles": 19,
+      "unverified_sources": 5,
+      "direct_pdf_verification_rate": 0.1724,
+      "official_article_verification_rate": 0.6552,
+      "total_official_verification_rate": 0.8276
+    },
+    "deduplication_metrics": {
+      "duplicate_detection_accuracy": 1.0,
+      "canonical_url_normalization": "verified"
+    },
+    "distribution_metrics": {
+      "by_jurisdiction": {
+        "haryana": 2,
+        "punjab": 22,
+        "central": 4,
+        "jk": 1
+      },
+      "by_category": {
+        "administrative_notifications": 3,
+        "coop_laws_regulations": 10,
+        "coop_registration": 4,
+        "other_updates": 8,
+        "elections_governance": 1,
+        "agri_credit_kcc": 1,
+        "subsidies_financial_aid": 1,
+        "gov_schemes": 1
+      }
+    }
+  },
+  "security_regression": {
+    "summary": {
+      "total_vectors_tested": 12,
+      "passed": 12,
+      "failed": 0,
+      "pass_rate": 1.0
+    },
+    "test_details": [
+      {
+        "test_name": "Missing Admin Key",
+        "status": "PASSED",
+        "details": "Correctly rejected with HTTP 401"
+      },
+      {
+        "test_name": "Invalid Admin Key",
+        "status": "PASSED",
+        "details": "Correctly rejected with HTTP 403"
+      },
+      {
+        "test_name": "Valid Admin Key",
+        "status": "PASSED",
+        "details": "Administrative access granted with valid credential"
+      },
+      {
+        "test_name": "Rate Limiting & 429 Retry-After",
+        "status": "PASSED",
+        "details": "31st request throttled with Retry-After=60s"
+      },
+      {
+        "test_name": "SSRF Loopback & Metadata Protection",
+        "status": "PASSED",
+        "details": "Blocked 127.0.0.1, 169.254.169.254, and 10.0.0.1"
+      },
+      {
+        "test_name": "SSRF Scheme Protection",
+        "status": "PASSED",
+        "details": "Non-HTTP file:// and gopher:// schemes blocked"
+      },
+      {
+        "test_name": "Filename Path Traversal Sanitization",
+        "status": "PASSED",
+        "details": "Sanitized '../../etc/shadow.pdf' -> 'shadow.pdf'"
+      },
+      {
+        "test_name": "Fake PDF Magic-Byte Rejection",
+        "status": "PASSED",
+        "details": "Rejected with HTTP 400: Malformed PDF: missing %PDF magic header."
+      },
+      {
+        "test_name": "SQL Injection Defense",
+        "status": "PASSED",
+        "details": "Parameterized queries prevented SQL injection"
+      },
+      {
+        "test_name": "Prompt Injection Neutralization",
+        "status": "PASSED",
+        "details": "Override attempt detected and trigger redacted"
+      },
+      {
+        "test_name": "Privacy Log Sanitization",
+        "status": "PASSED",
+        "details": "Aadhaar, OTP, and Bearer tokens scrubbed from logs"
+      },
+      {
+        "test_name": "Oversized Payload Boundary",
+        "status": "PASSED",
+        "details": "Payload >2000 chars rejected by Pydantic validation"
+      }
+    ]
+  },
+  "performance": {
+    "hardware_profile": {
+      "os": "Windows",
+      "os_release": "11",
+      "os_version": "10.0.26300",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+      "python_version": "3.12.10"
+    },
+    "cold_start": {
+      "embedding_initialization_ms": 0.22
+    },
+    "warm_benchmarks": {
+      "embedding": {
+        "mean_ms": 0.03,
+        "median_ms": 0.01,
+        "p95_ms": 0.13,
+        "p99_ms": 0.14,
+        "min_ms": 0.01,
+        "max_ms": 0.14,
+        "samples": 40
+      },
+      "retrieval": {
+        "mean_ms": 2.62,
+        "median_ms": 2.43,
+        "p95_ms": 3.56,
+        "p99_ms": 3.87,
+        "min_ms": 2.0,
+        "max_ms": 3.87,
+        "samples": 40
+      },
+      "reranking": {
+        "mean_ms": 0.06,
+        "median_ms": 0.05,
+        "p95_ms": 0.09,
+        "p99_ms": 0.1,
+        "min_ms": 0.04,
+        "max_ms": 0.1,
+        "samples": 40
+      },
+      "translation": {
+        "mean_ms": 0.03,
+        "median_ms": 0.02,
+        "p95_ms": 0.04,
+        "p99_ms": 0.14,
+        "min_ms": 0.02,
+        "max_ms": 0.14,
+        "samples": 40
+      },
+      "tts_synthesis": {
+        "mean_ms": 0.65,
+        "median_ms": 0.42,
+        "p95_ms": 0.58,
+        "p99_ms": 8.6,
+        "min_ms": 0.36,
+        "max_ms": 8.6,
+        "samples": 40
+      },
+      "chat_end_to_end": {
+        "mean_ms": 5.04,
+        "median_ms": 5.35,
+        "p95_ms": 6.86,
+        "p99_ms": 7.27,
+        "min_ms": 2.04,
+        "max_ms": 7.27,
+        "samples": 40
+      },
+      "news_db_query": {
+        "mean_ms": 2.75,
+        "median_ms": 2.79,
+        "p95_ms": 3.47,
+        "p99_ms": 3.67,
+        "min_ms": 1.55,
+        "max_ms": 3.67,
+        "samples": 40
+      },
+      "db_conversation_write": {
+        "mean_ms": 3.14,
+        "median_ms": 3.11,
+        "p95_ms": 3.76,
+        "p99_ms": 4.12,
+        "min_ms": 2.56,
+        "max_ms": 4.12,
+        "samples": 40
+      }
+    },
+    "sample_size_per_component": 40
+  },
+  "total_evaluation_runtime_seconds": 3.97
+}

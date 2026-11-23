@@ -1,0 +1,68 @@
+{
+  "dataset": "dev",
+  "total_queries": 60,
+  "statutory_eval_queries": 56,
+  "unsupported_queries": 4,
+  "paradigms": {
+    "semantic_only": {
+      "p1_section_level": 0.4821,
+      "p3_section_level": 0.256,
+      "p5_section_level": 0.1821,
+      "recall3_section_level": 0.7143,
+      "recall5_section_level": 0.8214,
+      "mrr_section_level": 0.5985,
+      "ndcg3_section_level": 0.5981,
+      "ndcg5_section_level": 0.6509,
+      "p1_document_level": 0.8571,
+      "recall3_document_level": 1.0,
+      "mrr_document_level": 0.9196,
+      "passage_hit3": 0.7143,
+      "mean_latency_ms": 3.92
+    },
+    "keyword_only": {
+      "p1_section_level": 0.9643,
+      "p3_section_level": 0.369,
+      "p5_section_level": 0.2286,
+      "recall3_section_level": 0.9643,
+      "recall5_section_level": 0.9643,
+      "mrr_section_level": 0.9643,
+      "ndcg3_section_level": 0.9547,
+      "ndcg5_section_level": 0.9583,
+      "p1_document_level": 0.9821,
+      "recall3_document_level": 0.9821,
+      "mrr_document_level": 0.9821,
+      "passage_hit3": 0.9643,
+      "mean_latency_ms": 2.74
+    },
+    "hybrid_rrf": {
+      "p1_section_level": 0.9286,
+      "p3_section_level": 0.3571,
+      "p5_section_level": 0.2179,
+      "recall3_section_level": 0.9643,
+      "recall5_section_level": 0.9643,
+      "mrr_section_level": 0.9464,
+      "ndcg3_section_level": 0.9385,
+      "ndcg5_section_level": 0.9432,
+      "p1_document_level": 0.9643,
+      "recall3_document_level": 1.0,
+      "mrr_document_level": 0.9792,
+      "passage_hit3": 0.9643,
+      "mean_latency_ms": 6.15
+    },
+    "domain_reranker": {
+      "p1_section_level": 0.9464,
+      "p3_section_level": 0.3631,
+      "p5_section_level": 0.2179,
+      "recall3_section_level": 0.9643,
+      "recall5_section_level": 0.9643,
+      "mrr_section_level": 0.9554,
+      "ndcg3_section_level": 0.952,
+      "ndcg5_section_level": 0.952,
+      "p1_document_level": 1.0,
+      "recall3_document_level": 1.0,
+      "mrr_document_level": 1.0,
+      "passage_hit3": 0.9643,
+      "mean_latency_ms": 6.59
+    }
+  }
+}

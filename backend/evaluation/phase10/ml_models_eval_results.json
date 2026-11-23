@@ -1,0 +1,525 @@
+{
+  "intent_classifier": {
+    "sample_size": 37,
+    "accuracy": 0.8919,
+    "macro_precision": 0.4181,
+    "macro_recall": 0.4074,
+    "macro_f1": 0.4118,
+    "per_class": {
+      "cooperative_registration": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "elections_governance": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "financial_assistance_kcc": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "general_cooperative": {
+        "support": 12,
+        "precision": 0.9167,
+        "recall": 0.9167,
+        "f1": 0.9167
+      },
+      "government_schemes_pmkisan": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "grievance_arbitration": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "legal_information": {
+        "support": 12,
+        "precision": 0.8462,
+        "recall": 0.9167,
+        "f1": 0.88
+      },
+      "membership_rights": {
+        "support": 12,
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091
+      },
+      "pmfby_crop_insurance": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "labels": [
+      "cooperative_registration",
+      "elections_governance",
+      "financial_assistance_kcc",
+      "general_cooperative",
+      "government_schemes_pmkisan",
+      "grievance_arbitration",
+      "legal_information",
+      "membership_rights",
+      "pmfby_crop_insurance"
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        11,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        11,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "language_identifier": {
+    "sample_size": 19,
+    "accuracy": 0.8947,
+    "macro_precision": 0.2,
+    "macro_recall": 0.1789,
+    "macro_f1": 0.1889,
+    "per_class": {
+      "en": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "hi": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pa": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "doi": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "bgc": {
+        "support": 19,
+        "precision": 1.0,
+        "recall": 0.8947,
+        "f1": 0.9444
+      }
+    },
+    "labels": [
+      "en",
+      "hi",
+      "pa",
+      "doi",
+      "bgc"
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        17
+      ]
+    ]
+  },
+  "news_classifier": {
+    "sample_size": 12,
+    "accuracy": 0.75,
+    "macro_precision": 0.4,
+    "macro_recall": 0.3,
+    "macro_f1": 0.34,
+    "per_class": {
+      "administrative_notifications": {
+        "support": 3,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8
+      },
+      "agri_credit_kcc": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "coop_laws_regulations": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "coop_registration": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "crop_insurance_pmfby": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "dairy_fisheries_coop": {
+        "support": 3,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8
+      },
+      "elections_governance": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "gov_schemes": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "grievance_redressal": {
+        "support": 3,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8
+      },
+      "subsidies_financial_aid": {
+        "support": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "labels": [
+      "administrative_notifications",
+      "agri_credit_kcc",
+      "coop_laws_regulations",
+      "coop_registration",
+      "crop_insurance_pmfby",
+      "dairy_fisheries_coop",
+      "elections_governance",
+      "gov_schemes",
+      "grievance_redressal",
+      "subsidies_financial_aid"
+    ],
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    ]
+  },
+  "reranker_comparison": {
+    "semantic_only": {
+      "p1_section_level": 0.1676,
+      "p3_section_level": 0.1441,
+      "p5_section_level": 0.0984,
+      "recall3_section_level": 0.373,
+      "recall5_section_level": 0.3892,
+      "mrr_section_level": 0.2725,
+      "ndcg3_section_level": 0.2953,
+      "ndcg5_section_level": 0.3032,
+      "p1_document_level": 0.5243,
+      "recall3_document_level": 0.7243,
+      "mrr_document_level": 0.6387,
+      "passage_hit3": 0.0703,
+      "mean_latency_ms": 1.37
+    },
+    "keyword_only": {
+      "p1_section_level": 0.3135,
+      "p3_section_level": 0.191,
+      "p5_section_level": 0.1254,
+      "recall3_section_level": 0.4378,
+      "recall5_section_level": 0.4432,
+      "mrr_section_level": 0.3716,
+      "ndcg3_section_level": 0.3907,
+      "ndcg5_section_level": 0.3924,
+      "p1_document_level": 0.6324,
+      "recall3_document_level": 0.7351,
+      "mrr_document_level": 0.6784,
+      "passage_hit3": 0.0811,
+      "mean_latency_ms": 1.12
+    },
+    "hybrid_rrf": {
+      "p1_section_level": 0.2,
+      "p3_section_level": 0.1676,
+      "p5_section_level": 0.1114,
+      "recall3_section_level": 0.4054,
+      "recall5_section_level": 0.4108,
+      "mrr_section_level": 0.3005,
+      "ndcg3_section_level": 0.329,
+      "ndcg5_section_level": 0.3293,
+      "p1_document_level": 0.6324,
+      "recall3_document_level": 0.7351,
+      "mrr_document_level": 0.6788,
+      "passage_hit3": 0.0811,
+      "mean_latency_ms": 2.37
+    },
+    "domain_reranker": {
+      "p1_section_level": 0.3135,
+      "p3_section_level": 0.1856,
+      "p5_section_level": 0.1114,
+      "recall3_section_level": 0.4108,
+      "recall5_section_level": 0.4108,
+      "mrr_section_level": 0.3604,
+      "ndcg3_section_level": 0.3753,
+      "ndcg5_section_level": 0.3753,
+      "p1_document_level": 0.6324,
+      "recall3_document_level": 0.7405,
+      "mrr_document_level": 0.6838,
+      "passage_hit3": 0.0865,
+      "mean_latency_ms": 2.44
+    }
+  }
+}

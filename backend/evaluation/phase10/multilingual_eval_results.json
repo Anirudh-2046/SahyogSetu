@@ -1,0 +1,57 @@
+{
+  "en": {
+    "language_id_accuracy": 1.0,
+    "intent_classification_accuracy": 1.0,
+    "jurisdiction_accuracy": 1.0,
+    "retrieval_recall3": 1.0,
+    "entity_preservation_rate": 0.8333,
+    "asr_provider": "local",
+    "tts_provider": "Audio Cache (Local PCM WAV)",
+    "tts_latency_ms": 8.96,
+    "dialect_ethics_disclosed": false
+  },
+  "hi": {
+    "language_id_accuracy": 0.5,
+    "intent_classification_accuracy": 0.5,
+    "jurisdiction_accuracy": 1.0,
+    "retrieval_recall3": 0.5,
+    "entity_preservation_rate": 0.1667,
+    "asr_provider": "local",
+    "tts_provider": "Audio Cache (Local PCM WAV)",
+    "tts_latency_ms": 6.79,
+    "dialect_ethics_disclosed": false
+  },
+  "pa": {
+    "language_id_accuracy": 1.0,
+    "intent_classification_accuracy": 0.5,
+    "jurisdiction_accuracy": 1.0,
+    "retrieval_recall3": 0.0,
+    "entity_preservation_rate": 0.5,
+    "asr_provider": "local",
+    "tts_provider": "Audio Cache (Local PCM WAV)",
+    "tts_latency_ms": 6.9,
+    "dialect_ethics_disclosed": false
+  },
+  "doi": {
+    "language_id_accuracy": 0.5,
+    "intent_classification_accuracy": 0.0,
+    "jurisdiction_accuracy": 1.0,
+    "retrieval_recall3": 0.5,
+    "entity_preservation_rate": 0.3333,
+    "asr_provider": "local",
+    "tts_provider": "Audio Cache (Local PCM WAV)",
+    "tts_latency_ms": 0.53,
+    "dialect_ethics_disclosed": false
+  },
+  "bgc": {
+    "language_id_accuracy": 1.0,
+    "intent_classification_accuracy": 0.5,
+    "jurisdiction_accuracy": 1.0,
+    "retrieval_recall3": 0.5,
+    "entity_preservation_rate": 0.25,
+    "asr_provider": "local",
+    "tts_provider": "Audio Cache (Local PCM WAV)",
+    "tts_latency_ms": 0.39,
+    "dialect_ethics_disclosed": false
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "dataset_metadata": {
+    "total_queries": 220,
+    "statutory_eval_queries": 185,
+    "unsupported_queries_excluded": 35
+  },
+  "paradigms": {
+    "semantic_only": {
+      "p1_section_level": 0.1676,
+      "p3_section_level": 0.1441,
+      "p5_section_level": 0.0984,
+      "recall3_section_level": 0.373,
+      "recall5_section_level": 0.3892,
+      "mrr_section_level": 0.2725,
+      "ndcg3_section_level": 0.2953,
+      "ndcg5_section_level": 0.3032,
+      "p1_document_level": 0.5243,
+      "recall3_document_level": 0.7243,
+      "mrr_document_level": 0.6387,
+      "passage_hit3": 0.0703,
+      "mean_latency_ms": 1.37
+    },
+    "keyword_only": {
+      "p1_section_level": 0.3135,
+      "p3_section_level": 0.191,
+      "p5_section_level": 0.1254,
+      "recall3_section_level": 0.4378,
+      "recall5_section_level": 0.4432,
+      "mrr_section_level": 0.3716,
+      "ndcg3_section_level": 0.3907,
+      "ndcg5_section_level": 0.3924,
+      "p1_document_level": 0.6324,
+      "recall3_document_level": 0.7351,
+      "mrr_document_level": 0.6784,
+      "passage_hit3": 0.0811,
+      "mean_latency_ms": 1.12
+    },
+    "hybrid_rrf": {
+      "p1_section_level": 0.2,
+      "p3_section_level": 0.1676,
+      "p5_section_level": 0.1114,
+      "recall3_section_level": 0.4054,
+      "recall5_section_level": 0.4108,
+      "mrr_section_level": 0.3005,
+      "ndcg3_section_level": 0.329,
+      "ndcg5_section_level": 0.3293,
+      "p1_document_level": 0.6324,
+      "recall3_document_level": 0.7351,
+      "mrr_document_level": 0.6788,
+      "passage_hit3": 0.0811,
+      "mean_latency_ms": 2.37
+    },
+    "domain_reranker": {
+      "p1_section_level": 0.3135,
+      "p3_section_level": 0.1856,
+      "p5_section_level": 0.1114,
+      "recall3_section_level": 0.4108,
+      "recall5_section_level": 0.4108,
+      "mrr_section_level": 0.3604,
+      "ndcg3_section_level": 0.3753,
+      "ndcg5_section_level": 0.3753,
+      "p1_document_level": 0.6324,
+      "recall3_document_level": 0.7405,
+      "mrr_document_level": 0.6838,
+      "passage_hit3": 0.0865,
+      "mean_latency_ms": 2.44
+    }
+  },
+  "by_jurisdiction": {
+    "punjab": {
+      "count": 32,
+      "p1_section": 0.1562,
+      "r3_section": 0.5312,
+      "mrr_section": 0.3438
+    },
+    "haryana": {
+      "count": 34,
+      "p1_section": 0.2059,
+      "r3_section": 0.3235,
+      "mrr_section": 0.2549
+    },
+    "jk": {
+      "count": 26,
+      "p1_section": 0.5,
+      "r3_section": 0.5385,
+      "mrr_section": 0.5192
+    },
+    "central": {
+      "count": 92,
+      "p1_section": 0.3478,
+      "r3_section": 0.3587,
+      "mrr_section": 0.3533
+    },
+    "multi": {
+      "count": 1,
+      "p1_section": 1.0,
+      "r3_section": 1.0,
+      "mrr_section": 1.0
+    }
+  },
+  "by_language": {
+    "en": {
+      "count": 170,
+      "p1_section": 0.3412,
+      "r3_section": 0.4471,
+      "mrr_section": 0.3922
+    },
+    "hi": {
+      "count": 5,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "pa": {
+      "count": 5,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "doi": {
+      "count": 3,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "bgc": {
+      "count": 2,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "count": 32,
+      "p1_section": 0.2812,
+      "r3_section": 0.4062,
+      "mrr_section": 0.3438
+    },
+    "medium": {
+      "count": 114,
+      "p1_section": 0.1491,
+      "r3_section": 0.2544,
+      "mrr_section": 0.1988
+    },
+    "hard": {
+      "count": 39,
+      "p1_section": 0.8205,
+      "r3_section": 0.8718,
+      "mrr_section": 0.8462
+    }
+  },
+  "by_category": {
+    "governance_registration": {
+      "count": 6,
+      "p1_section": 0.5,
+      "r3_section": 0.5,
+      "mrr_section": 0.5
+    },
+    "governance_membership_rights": {
+      "count": 3,
+      "p1_section": 0.6667,
+      "r3_section": 1.0,
+      "mrr_section": 0.8333
+    },
+    "governance_disputes": {
+      "count": 8,
+      "p1_section": 0.125,
+      "r3_section": 0.625,
+      "mrr_section": 0.3542
+    },
+    "governance_compliance": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 1.0,
+      "mrr_section": 0.5
+    },
+    "governance_elections": {
+      "count": 3,
+      "p1_section": 0.6667,
+      "r3_section": 0.6667,
+      "mrr_section": 0.6667
+    },
+    "governance_settlement": {
+      "count": 2,
+      "p1_section": 0.5,
+      "r3_section": 0.5,
+      "mrr_section": 0.5
+    },
+    "governance_supersession": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 1.0,
+      "mrr_section": 0.5
+    },
+    "governance_accounts": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_liquidation": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_tenure": {
+      "count": 4,
+      "p1_section": 0.25,
+      "r3_section": 0.5,
+      "mrr_section": 0.375
+    },
+    "governance_committee": {
+      "count": 3,
+      "p1_section": 0.6667,
+      "r3_section": 0.6667,
+      "mrr_section": 0.6667
+    },
+    "governance_surcharge": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 1.0,
+      "mrr_section": 0.3333
+    },
+    "governance_audit": {
+      "count": 4,
+      "p1_section": 0.75,
+      "r3_section": 0.75,
+      "mrr_section": 0.75
+    },
+    "governance_meetings": {
+      "count": 1,
+      "p1_section": 1.0,
+      "r3_section": 1.0,
+      "mrr_section": 1.0
+    },
+    "governance_government_role": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 1.0,
+      "mrr_section": 0.5
+    },
+    "governance_membership": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_byelaws": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_funds": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_capital": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_membership_cessation": {
+      "count": 7,
+      "p1_section": 0.1429,
+      "r3_section": 0.1429,
+      "mrr_section": 0.1429
+    },
+    "governance_inspection_powers": {
+      "count": 7,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_reserve_funds": {
+      "count": 7,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_annual_meeting_notice": {
+      "count": 7,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_amendment_registration": {
+      "count": 7,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_kcc": {
+      "count": 6,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_pmfby": {
+      "count": 3,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_pacs": {
+      "count": 3,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_pmkisan": {
+      "count": 2,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_kcc_haryana": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_dairy_infrastructure": {
+      "count": 8,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_fisheries_fidf": {
+      "count": 8,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_hafed_procurement": {
+      "count": 8,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "schemes_verka_milkfed": {
+      "count": 8,
+      "p1_section": 0.0,
+      "r3_section": 1.0,
+      "mrr_section": 0.5
+    },
+    "schemes_jk_handicrafts": {
+      "count": 8,
+      "p1_section": 1.0,
+      "r3_section": 1.0,
+      "mrr_section": 1.0
+    },
+    "jurisdiction_boundary": {
+      "count": 1,
+      "p1_section": 1.0,
+      "r3_section": 1.0,
+      "mrr_section": 1.0
+    },
+    "jurisdiction_isolation": {
+      "count": 1,
+      "p1_section": 1.0,
+      "r3_section": 1.0,
+      "mrr_section": 1.0
+    },
+    "jurisdiction_scope": {
+      "count": 1,
+      "p1_section": 1.0,
+      "r3_section": 1.0,
+      "mrr_section": 1.0
+    },
+    "jurisdiction_intra_state": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "jurisdiction_conversion": {
+      "count": 1,
+      "p1_section": 1.0,
+      "r3_section": 1.0,
+      "mrr_section": 1.0
+    },
+    "jurisdiction_ut": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "jurisdiction_preemption": {
+      "count": 29,
+      "p1_section": 1.0,
+      "r3_section": 1.0,
+      "mrr_section": 1.0
+    },
+    "governance_voting": {
+      "count": 1,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    },
+    "governance_general": {
+      "count": 15,
+      "p1_section": 0.0,
+      "r3_section": 0.0,
+      "mrr_section": 0.0
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "classes": [
+    "cooperative_registration",
+    "elections_governance",
+    "financial_assistance_kcc",
+    "general_cooperative",
+    "government_schemes_pmkisan",
+    "grievance_arbitration",
+    "legal_information",
+    "membership_rights",
+    "pmfby_crop_insurance"
+  ],
+  "num_classes": 9,
+  "train_samples": 170,
+  "val_samples": 36,
+  "test_samples": 37,
+  "metrics": {
+    "val_accuracy": 0.7222,
+    "val_f1_macro": 0.7303,
+    "test_accuracy": 0.8649,
+    "test_f1_macro": 0.8598,
+    "test_f1_weighted": 0.8591,
+    "test_precision": 0.8965,
+    "test_recall": 0.8649,
+    "latency_ms": 0.189
+  },
+  "classification_report": {
+    "cooperative_registration": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "elections_governance": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "financial_assistance_kcc": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "general_cooperative": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "government_schemes_pmkisan": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "grievance_arbitration": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 4.0
+    },
+    "legal_information": {
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "f1-score": 0.8333333333333334,
+      "support": 5.0
+    },
+    "membership_rights": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "pmfby_crop_insurance": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "accuracy": 0.8648648648648649,
+    "macro avg": {
+      "precision": 0.9015873015873015,
+      "recall": 0.8611111111111112,
+      "f1-score": 0.8597883597883597,
+      "support": 37.0
+    },
+    "weighted avg": {
+      "precision": 0.8965250965250965,
+      "recall": 0.8648648648648649,
+      "f1-score": 0.859073359073359,
+      "support": 37.0
+    }
+  }
+}

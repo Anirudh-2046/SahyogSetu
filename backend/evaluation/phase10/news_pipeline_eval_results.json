@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "total_registered_sources": 19,
+    "total_database_records": 29
+  },
+  "source_authority_metrics": {
+    "official_government_sources_count": 17,
+    "source_authority_rate": 0.8947,
+    "ssrf_safety_rate": 1.0,
+    "url_validity_rate": 0.8276
+  },
+  "document_provenance_breakdown": {
+    "verified_official_pdf_documents": 5,
+    "verified_official_press_articles": 19,
+    "unverified_sources": 5,
+    "direct_pdf_verification_rate": 0.1724,
+    "official_article_verification_rate": 0.6552,
+    "total_official_verification_rate": 0.8276
+  },
+  "deduplication_metrics": {
+    "duplicate_detection_accuracy": 1.0,
+    "canonical_url_normalization": "verified"
+  },
+  "distribution_metrics": {
+    "by_jurisdiction": {
+      "haryana": 2,
+      "punjab": 22,
+      "central": 4,
+      "jk": 1
+    },
+    "by_category": {
+      "administrative_notifications": 3,
+      "coop_laws_regulations": 10,
+      "coop_registration": 4,
+      "other_updates": 8,
+      "elections_governance": 1,
+      "agri_credit_kcc": 1,
+      "subsidies_financial_aid": 1,
+      "gov_schemes": 1
+    }
+  }
+}

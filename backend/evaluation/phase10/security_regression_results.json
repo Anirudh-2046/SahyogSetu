@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "total_vectors_tested": 12,
+    "passed": 12,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "test_details": [
+    {
+      "test_name": "Missing Admin Key",
+      "status": "PASSED",
+      "details": "Correctly rejected with HTTP 401"
+    },
+    {
+      "test_name": "Invalid Admin Key",
+      "status": "PASSED",
+      "details": "Correctly rejected with HTTP 403"
+    },
+    {
+      "test_name": "Valid Admin Key",
+      "status": "PASSED",
+      "details": "Administrative access granted with valid credential"
+    },
+    {
+      "test_name": "Rate Limiting & 429 Retry-After",
+      "status": "PASSED",
+      "details": "31st request throttled with Retry-After=60s"
+    },
+    {
+      "test_name": "SSRF Loopback & Metadata Protection",
+      "status": "PASSED",
+      "details": "Blocked 127.0.0.1, 169.254.169.254, and 10.0.0.1"
+    },
+    {
+      "test_name": "SSRF Scheme Protection",
+      "status": "PASSED",
+      "details": "Non-HTTP file:// and gopher:// schemes blocked"
+    },
+    {
+      "test_name": "Filename Path Traversal Sanitization",
+      "status": "PASSED",
+      "details": "Sanitized '../../etc/shadow.pdf' -> 'shadow.pdf'"
+    },
+    {
+      "test_name": "Fake PDF Magic-Byte Rejection",
+      "status": "PASSED",
+      "details": "Rejected with HTTP 400: Malformed PDF: missing %PDF magic header."
+    },
+    {
+      "test_name": "SQL Injection Defense",
+      "status": "PASSED",
+      "details": "Parameterized queries prevented SQL injection"
+    },
+    {
+      "test_name": "Prompt Injection Neutralization",
+      "status": "PASSED",
+      "details": "Override attempt detected and trigger redacted"
+    },
+    {
+      "test_name": "Privacy Log Sanitization",
+      "status": "PASSED",
+      "details": "Aadhaar, OTP, and Bearer tokens scrubbed from logs"
+    },
+    {
+      "test_name": "Oversized Payload Boundary",
+      "status": "PASSED",
+      "details": "Payload >2000 chars rejected by Pydantic validation"
+    }
+  ]
+}

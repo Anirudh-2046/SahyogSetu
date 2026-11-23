@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "total_benchmark_queries": 220,
+    "statutory_queries": 186,
+    "unsupported_queries": 34,
+    "total_citations_emitted": 564,
+    "total_claims_evaluated": 1406
+  },
+  "answer_quality_metrics": {
+    "legal_correctness_rate": 0.6039,
+    "answer_groundedness_rate": 0.6257,
+    "citation_correctness_rate": 0.1016,
+    "citation_completeness_rate": 0.6882,
+    "hallucinated_citation_rate": 0.0,
+    "no_evidence_abstention_accuracy": 0.9412,
+    "jurisdiction_correctness_rate": 0.9909,
+    "practical_usefulness_score": 0.9207
+  },
+  "claim_level_metrics": {
+    "total_claims": 1406,
+    "supported_claims": 849,
+    "partially_supported_claims": 295,
+    "unsupported_claims": 262,
+    "contradicted_claims": 0,
+    "claim_groundedness_rate": 0.7087,
+    "unsupported_claim_rate": 0.1863,
+    "contradicted_claim_rate": 0.0
+  }
+}

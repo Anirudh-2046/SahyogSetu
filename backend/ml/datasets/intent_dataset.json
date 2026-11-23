@@ -1,0 +1,1485 @@
+[
+  {
+    "id": "int_001",
+    "query": "What is the procedure to register a new primary agricultural cooperative society?",
+    "intent": "cooperative_registration",
+    "language": "en"
+  },
+  {
+    "id": "int_002",
+    "query": "How many members are required to form a cooperative society in Punjab under Section 8?",
+    "intent": "cooperative_registration",
+    "language": "en",
+    "section_ref": "8"
+  },
+  {
+    "id": "int_003",
+    "query": "Requirements for registration of a multi-state cooperative society under MSCS Act",
+    "intent": "cooperative_registration",
+    "language": "en"
+  },
+  {
+    "id": "int_004",
+    "query": "नयी प्राथमिक कृषि ऋण समिति का पंजीकरण कैसे कराया जाता है?",
+    "intent": "cooperative_registration",
+    "language": "hi"
+  },
+  {
+    "id": "int_005",
+    "query": "सहकारी समिति के गठन के लिए न्यूनतम कितने सदस्यों की आवश्यकता होती है?",
+    "intent": "cooperative_registration",
+    "language": "hi"
+  },
+  {
+    "id": "int_006",
+    "query": "पंजीकरण के लिए फॉर्म-ए के साथ कौन से दस्तावेज संलग्न करने पड़ते हैं?",
+    "intent": "cooperative_registration",
+    "language": "hi"
+  },
+  {
+    "id": "int_007",
+    "query": "ਪੰਜਾਬ ਵਿੱਚ ਨਵੀਂ ਸਹਿਕਾਰੀ ਸਭਾ ਰਜਿਸਟਰ ਕਰਵਾਉਣ ਲਈ ਕਿੰਨੇ ਮੈਂਬਰ ਚਾਹੀਦੇ ਹਨ?",
+    "intent": "cooperative_registration",
+    "language": "pa"
+  },
+  {
+    "id": "int_008",
+    "query": "ਕੋਆਪਰੇਟਿਵ ਸੁਸਾਇਟੀ ਦਾ ਗਠਨ ਕਰਨ ਲਈ ਦਰਖਾਸਤ ਕਿੱਥੇ ਦੇਣੀ ਪੈਂਦੀ ਹੈ?",
+    "intent": "cooperative_registration",
+    "language": "pa"
+  },
+  {
+    "id": "int_009",
+    "query": "ਰਜਿਸਟਰੇਸ਼ਨ ਫਾਰਮ ਏ ਭਰਨ ਦਾ ਤਰੀਕਾ ਕੀ ਹੈ?",
+    "intent": "cooperative_registration",
+    "language": "pa"
+  },
+  {
+    "id": "int_010",
+    "query": "जम्मू च नई सहकारी सभा बनानी ऐ तां किन्ने लोक चाहीदे न?",
+    "intent": "cooperative_registration",
+    "language": "doi"
+  },
+  {
+    "id": "int_011",
+    "query": "सहकारी समिति बणाणा खातर फार्म कित्तै जमा करणा सै?",
+    "intent": "cooperative_registration",
+    "language": "bgc"
+  },
+  {
+    "id": "int_012",
+    "query": "nayi sahkari samiti register karne ke liye kitne log chahiye",
+    "intent": "cooperative_registration",
+    "language": "en"
+  },
+  {
+    "id": "int_013",
+    "query": "punjab vich nayi society registration process ki hai",
+    "intent": "cooperative_registration",
+    "language": "en"
+  },
+  {
+    "id": "int_014",
+    "query": "minimum 10 persons required for society formation application",
+    "intent": "cooperative_registration",
+    "language": "en"
+  },
+  {
+    "id": "int_015",
+    "query": "society formation documents list and registrar approval procedure",
+    "intent": "cooperative_registration",
+    "language": "en"
+  },
+  {
+    "id": "int_016",
+    "query": "What is the tenure of the managing committee of a cooperative society in Haryana?",
+    "intent": "elections_governance",
+    "language": "en",
+    "section_ref": "28"
+  },
+  {
+    "id": "int_017",
+    "query": "When are the elections of the board of directors held in cooperative societies?",
+    "intent": "elections_governance",
+    "language": "en"
+  },
+  {
+    "id": "int_018",
+    "query": "What is the quota or reservation for women in the managing committee under Section 28?",
+    "intent": "elections_governance",
+    "language": "en",
+    "section_ref": "28"
+  },
+  {
+    "id": "int_019",
+    "query": "हरियाणा में समिति की प्रबंध समिति का कार्यकाल कितने वर्ष का होता है?",
+    "intent": "elections_governance",
+    "language": "hi",
+    "section_ref": "28"
+  },
+  {
+    "id": "int_020",
+    "query": "सहकारी सभा की प्रबंध समिति के चुनाव कब और कैसे करवाए जाते हैं?",
+    "intent": "elections_governance",
+    "language": "hi"
+  },
+  {
+    "id": "int_021",
+    "query": "प्रबंधकारिणी समिति में अनुसूचित जाति और महिलाओं के लिए आरक्षण के क्या नियम हैं?",
+    "intent": "elections_governance",
+    "language": "hi"
+  },
+  {
+    "id": "int_022",
+    "query": "ਪੰਜਾਬ ਵਿੱਚ ਪ੍ਰਬੰਧਕ ਕਮੇਟੀ ਦੀ ਮਿਆਦ ਕਿੰਨੇ ਸਾਲ ਦੀ ਹੁੰਦੀ ਹੈ?",
+    "intent": "elections_governance",
+    "language": "pa"
+  },
+  {
+    "id": "int_023",
+    "query": "ਸੁਸਾਇਟੀ ਦੇ ਪ੍ਰਧਾਨ ਅਤੇ ਕਮੇਟੀ ਦੀਆਂ ਚੋਣਾਂ ਕਦੋਂ ਹੁੰਦੀਆਂ ਹਨ?",
+    "intent": "elections_governance",
+    "language": "pa"
+  },
+  {
+    "id": "int_024",
+    "query": "ਚੋਣਾਂ ਵਿੱਚ ਔਰਤਾਂ ਅਤੇ ਪੱਛੜੀਆਂ ਸ਼੍ਰੇਣੀਆਂ ਲਈ ਸੀਟਾਂ ਦਾ ਰਾਖਵਾਂਕਰਨ ਕਿਵੇਂ ਹੈ?",
+    "intent": "elections_governance",
+    "language": "pa"
+  },
+  {
+    "id": "int_025",
+    "query": "जम्मू-कश्मीर च सहकारी सभा दी कमेटिए दी मियाद किन्नी होंदी ऐ?",
+    "intent": "elections_governance",
+    "language": "doi",
+    "section_ref": "29"
+  },
+  {
+    "id": "int_026",
+    "query": "म्हारी समिति की कमेटी का इलेक्शन कब होवैगा?",
+    "intent": "elections_governance",
+    "language": "bgc"
+  },
+  {
+    "id": "int_027",
+    "query": "managing committee election rules and 5 year tenure rules",
+    "intent": "elections_governance",
+    "language": "en"
+  },
+  {
+    "id": "int_028",
+    "query": "prabandh samiti ka karyakal aur chunav niyam",
+    "intent": "elections_governance",
+    "language": "en"
+  },
+  {
+    "id": "int_029",
+    "query": "committee election procedure and term of office in cooperative",
+    "intent": "elections_governance",
+    "language": "en"
+  },
+  {
+    "id": "int_030",
+    "query": "procedure for removal of committee member before completion of term",
+    "intent": "elections_governance",
+    "language": "en"
+  },
+  {
+    "id": "int_031",
+    "query": "What is the collateral-free loan limit under the Kisan Credit Card (KCC) scheme?",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_032",
+    "query": "What is the effective interest rate for farmers under KCC with prompt repayment?",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_033",
+    "query": "How to apply for animal husbandry and fisheries KCC loan?",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_034",
+    "query": "किसान क्रेडिट कार्ड पर बिना गारंटी कितने रुपये तक का ऋण मिलता है?",
+    "intent": "financial_assistance_kcc",
+    "language": "hi"
+  },
+  {
+    "id": "int_035",
+    "query": "केसीसी ऋण पर 4 प्रतिशत ब्याज दर का लाभ कैसे मिलता है?",
+    "intent": "financial_assistance_kcc",
+    "language": "hi"
+  },
+  {
+    "id": "int_036",
+    "query": "दुग्ध उत्पादक और पशुपालकों के लिए किसान क्रेडिट कार्ड की सीमा क्या है?",
+    "intent": "financial_assistance_kcc",
+    "language": "hi"
+  },
+  {
+    "id": "int_037",
+    "query": "ਕਿਸਾਨ ਕ੍ਰੈਡਿਟ ਕਾਰਡ 'ਤੇ ਬਿਨਾਂ ਗਾਰੰਟੀ ਕਿੰਨਾ ਕਰਜ਼ਾ ਮਿਲ ਸਕਦਾ ਹੈ?",
+    "intent": "financial_assistance_kcc",
+    "language": "pa"
+  },
+  {
+    "id": "int_038",
+    "query": "ਸਮੇਂ ਸਿਰ ਕਰਜ਼ਾ ਮੋੜਨ 'ਤੇ ਵਿਆਜ ਸਬਸਿਡੀ ਜਾਂ ਛੋਟ ਕਿਵੇਂ ਮਿਲਦੀ ਹੈ?",
+    "intent": "financial_assistance_kcc",
+    "language": "pa"
+  },
+  {
+    "id": "int_039",
+    "query": "ਪਸ਼ੂ ਪਾਲਣ ਖਾਤਰ ਕੇਸੀਸੀ ਲੋਨ ਲੈਣ ਲਈ ਕੀ ਕਰਨਾ ਪਵੇਗਾ?",
+    "intent": "financial_assistance_kcc",
+    "language": "pa"
+  },
+  {
+    "id": "int_040",
+    "query": "केसीसी पर बिना जमानत कितना कर्जा मिलग्या?",
+    "intent": "financial_assistance_kcc",
+    "language": "doi"
+  },
+  {
+    "id": "int_041",
+    "query": "kcc loan limit 1.60 lakh collateral free rbi guidelines",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_042",
+    "query": "interest subvention scheme 3 percent prompt repayment incentive on crop loan",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_043",
+    "query": "kisan credit card banwane ke liye form aur eligibility",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_044",
+    "query": "crop loan scale of finance calculation for wheat and paddy",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_045",
+    "query": "harco bank kcc interest subvention and penal interest waiver",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_046",
+    "query": "Who is eligible to receive benefits under the PM-KISAN Samman Nidhi scheme?",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_047",
+    "query": "How many installments of Rs 2000 are provided annually in PM Kisan?",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_048",
+    "query": "What are the exclusion criteria for institutional landholders under PM Kisan?",
+    "intent": "government_schemes_pmkisan",
+    "language": "en",
+    "section_ref": "3"
+  },
+  {
+    "id": "int_049",
+    "query": "प्रधानमंत्री किसान सम्मान निधि योजना के तहत सालाना कितनी राशि मिलती है?",
+    "intent": "government_schemes_pmkisan",
+    "language": "hi"
+  },
+  {
+    "id": "int_050",
+    "query": "पीएम किसान की 2000 रुपये की किस्त खाते में न आने पर क्या करें?",
+    "intent": "government_schemes_pmkisan",
+    "language": "hi"
+  },
+  {
+    "id": "int_051",
+    "query": "ई-केवाईसी और भूमि सत्यापन कैसे पूरा करें पीएम किसान पोर्टल पर?",
+    "intent": "government_schemes_pmkisan",
+    "language": "hi"
+  },
+  {
+    "id": "int_052",
+    "query": "ਪੀਐਮ ਕਿਸਾਨ ਸਨਮਾਨ ਨਿਧੀ ਦੀ ਅਗਲੀ ਕਿਸ਼ਤ ਕਦੋਂ ਜਮ੍ਹਾਂ ਹੋਵੇਗੀ?",
+    "intent": "government_schemes_pmkisan",
+    "language": "pa"
+  },
+  {
+    "id": "int_053",
+    "query": "ਸਾਲਾਨਾ 6000 ਰੁਪਏ ਲੈਣ ਲਈ ਕਿਹੜੇ ਕਿਸਾਨ ਯੋਗ ਨਹੀਂ ਹਨ?",
+    "intent": "government_schemes_pmkisan",
+    "language": "pa"
+  },
+  {
+    "id": "int_054",
+    "query": "ਜ਼ਮੀਨ ਦੀ ਫਰਦ ਅਤੇ ਆਧਾਰ ਕਾਰਡ ਲਿੰਕ ਕਿਵੇਂ ਕਰਵਾਈਏ?",
+    "intent": "government_schemes_pmkisan",
+    "language": "pa"
+  },
+  {
+    "id": "int_055",
+    "query": "पीएम किसान दी किस्त नी आई तां कुत्थै शिकायत करिए?",
+    "intent": "government_schemes_pmkisan",
+    "language": "doi"
+  },
+  {
+    "id": "int_056",
+    "query": "pm kisan ekyc online verification land seeding process",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_057",
+    "query": "pm-kisan 6000 annual installment dbt bank transfer",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_058",
+    "query": "kisan samman nidhi exclusion doctor engineer tax payer",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_059",
+    "query": "pm kisan kist kab aayegi status check",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_060",
+    "query": "complaint helpline number for pm kisan beneficiary rejection",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_061",
+    "query": "How many hours do farmers have to report crop damage under PMFBY?",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_062",
+    "query": "What is the premium rate payable by farmers for Kharif crops under PMFBY?",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_063",
+    "query": "Is crop damage from hailstorm and inundation covered under PMFBY localized calamity?",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_064",
+    "query": "प्रधानमंत्री फसल बीमा योजना में फसल खराबे की सूचना कितने घंटे में देनी होती है?",
+    "intent": "pmfby_crop_insurance",
+    "language": "hi"
+  },
+  {
+    "id": "int_065",
+    "query": "ओलावृष्टि या जलभराव से नुकसान होने पर बीमा क्लेम कैसे दर्ज कराएं?",
+    "intent": "pmfby_crop_insurance",
+    "language": "hi"
+  },
+  {
+    "id": "int_066",
+    "query": "खरीफ और रबी फसलों के लिए किसान को कितना प्रीमियम देना पड़ता है?",
+    "intent": "pmfby_crop_insurance",
+    "language": "hi"
+  },
+  {
+    "id": "int_067",
+    "query": "ਫਸਲ ਬੀਮਾ ਯੋਜਨਾ ਤਹਿਤ ਨੁਕਸਾਨ ਦੀ ਰਪਟ 72 ਘੰਟਿਆਂ ਵਿੱਚ ਕਿਵੇਂ ਦਰਜ ਕਰੀਏ?",
+    "intent": "pmfby_crop_insurance",
+    "language": "pa"
+  },
+  {
+    "id": "int_068",
+    "query": "ਗੜੇਮਾਰੀ ਅਤੇ ਹੜ੍ਹ ਕਾਰਨ ਫਸਲ ਤਬਾਹ ਹੋਣ 'ਤੇ ਮੁਆਵਜ਼ਾ ਲੈਣ ਦਾ ਤਰੀਕਾ ਕੀ ਹੈ?",
+    "intent": "pmfby_crop_insurance",
+    "language": "pa"
+  },
+  {
+    "id": "int_069",
+    "query": "ਫਸਲ ਬੀਮਾ ਕੰਪਨੀ ਦਾ ਟੋਲ ਫਰੀ ਨੰਬਰ ਜਾਂ ਐਪ ਕਿਹੜੀ ਹੈ?",
+    "intent": "pmfby_crop_insurance",
+    "language": "pa"
+  },
+  {
+    "id": "int_070",
+    "query": "फसल बीमा च 72 घंटे दी मियाਦ च रिपोर्टिंग किकण करिए?",
+    "intent": "pmfby_crop_insurance",
+    "language": "doi"
+  },
+  {
+    "id": "int_071",
+    "query": "pmfby 72 hours intimation of localized calamity claim",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_072",
+    "query": "crop insurance premium 2 percent kharif 1.5 percent rabi",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_073",
+    "query": "fasal bima claim process hailstorm inundation surveyor visit",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_074",
+    "query": "crop damage survey report and insurance settlement timeline",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_075",
+    "query": "pmfby claim rejected reason and appeal procedure",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_076",
+    "query": "Can a cooperative dispute be filed in a civil court under Section 55?",
+    "intent": "grievance_arbitration",
+    "language": "en",
+    "section_ref": "55"
+  },
+  {
+    "id": "int_077",
+    "query": "What is the procedure for referring a dispute to the Registrar for arbitration?",
+    "intent": "grievance_arbitration",
+    "language": "en"
+  },
+  {
+    "id": "int_078",
+    "query": "What disputes are covered under Section 102 of the Haryana Cooperative Societies Act?",
+    "intent": "grievance_arbitration",
+    "language": "en",
+    "section_ref": "102"
+  },
+  {
+    "id": "int_079",
+    "query": "क्या सहकारी समिति के विवाद को लेकर सिविल कोर्ट में मुकदमा दायर किया जा सकता है?",
+    "intent": "grievance_arbitration",
+    "language": "hi"
+  },
+  {
+    "id": "int_080",
+    "query": "सहकारी समिति के पैसे के गबन या विवाद में रजिस्ट्रार को शिकायत कैसे करें?",
+    "intent": "grievance_arbitration",
+    "language": "hi"
+  },
+  {
+    "id": "int_081",
+    "query": "धारा 102 के तहत मध्यस्थता और विवाद निपटारे की क्या प्रक्रिया है?",
+    "intent": "grievance_arbitration",
+    "language": "hi",
+    "section_ref": "102"
+  },
+  {
+    "id": "int_082",
+    "query": "ਕੀ ਸਹਿਕਾਰੀ ਸਭਾ ਦੇ ਝਗੜੇ ਲਈ ਦੀਵਾਨੀ ਅਦਾਲਤ ਵਿੱਚ ਕੇਸ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ?",
+    "intent": "grievance_arbitration",
+    "language": "pa",
+    "section_ref": "55"
+  },
+  {
+    "id": "int_083",
+    "query": "ਰਜਿਸਟਰਾਰ ਕੋਲ ਸਾਲਸੀ ਜਾਂ ਆਰਬਿਟ੍ਰੇਸ਼ਨ ਦਾ ਕੇਸ ਦਾਇਰ ਕਰਨ ਦਾ ਤਰੀਕਾ ਕੀ ਹੈ?",
+    "intent": "grievance_arbitration",
+    "language": "pa"
+  },
+  {
+    "id": "int_084",
+    "query": "ਸੁਸਾਇਟੀ ਦੇ ਹਿਸਾਬ ਕਿਤਾਬ ਵਿੱਚ ਘਪਲੇ ਦੀ ਸ਼ਿਕਾਇਤ ਕਿੱਥੇ ਕਰੀਏ?",
+    "intent": "grievance_arbitration",
+    "language": "pa"
+  },
+  {
+    "id": "int_085",
+    "query": "जम्मू कश्मीर च सहकारी समिति दे विवादें दा निपटारा कुन करदा ऐ?",
+    "intent": "grievance_arbitration",
+    "language": "doi",
+    "section_ref": "70"
+  },
+  {
+    "id": "int_086",
+    "query": "samiti ke vivad ka nibera registrar ke aage kaise hovega",
+    "intent": "grievance_arbitration",
+    "language": "en"
+  },
+  {
+    "id": "int_087",
+    "query": "bar on jurisdiction of civil courts in cooperative disputes",
+    "intent": "grievance_arbitration",
+    "language": "en"
+  },
+  {
+    "id": "int_088",
+    "query": "section 84 mscs act arbitration dispute resolution reference",
+    "intent": "grievance_arbitration",
+    "language": "en",
+    "section_ref": "84"
+  },
+  {
+    "id": "int_089",
+    "query": "arbitrator appointment fee and timeline for award in cooperative",
+    "intent": "grievance_arbitration",
+    "language": "en"
+  },
+  {
+    "id": "int_090",
+    "query": "appeal against arbitrator award before cooperative tribunal",
+    "intent": "grievance_arbitration",
+    "language": "en"
+  },
+  {
+    "id": "int_091",
+    "query": "What are the rights of a member in a cooperative society regarding voting?",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_092",
+    "query": "Can a member hold more than one vote in general meetings?",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_093",
+    "query": "What is the procedure for expulsion of a member from a cooperative society?",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_094",
+    "query": "सहकारी समिति में एक सदस्य एक वोट का नियम क्या है?",
+    "intent": "membership_rights",
+    "language": "hi"
+  },
+  {
+    "id": "int_095",
+    "query": "क्या समिति किसी सदस्य को बिना नोटिस दिए निष्कासित कर सकती है?",
+    "intent": "membership_rights",
+    "language": "hi"
+  },
+  {
+    "id": "int_096",
+    "query": "सदस्य बनने की न्यूनतम पात्रता और अंशपूंजी की शर्तें क्या हैं?",
+    "intent": "membership_rights",
+    "language": "hi"
+  },
+  {
+    "id": "int_097",
+    "query": "ਕੀ ਸਹਿਕਾਰੀ ਸੁਸਾਇਟੀ ਵਿੱਚ ਹਰ ਮੈਂਬਰ ਕੋਲ ਇੱਕੋ ਵੋਟ ਦਾ ਅਧਿਕਾਰ ਹੁੰਦਾ ਹੈ?",
+    "intent": "membership_rights",
+    "language": "pa"
+  },
+  {
+    "id": "int_098",
+    "query": "ਸੁਸਾਇਟੀ ਵਿੱਚੋਂ ਕਿਸੇ ਮੈਂਬਰ ਨੂੰ ਕੱਢਣ ਜਾਂ ਖਾਰਜ ਕਰਨ ਦਾ ਨਿਯਮ ਕੀ ਹੈ?",
+    "intent": "membership_rights",
+    "language": "pa"
+  },
+  {
+    "id": "int_099",
+    "query": "ਨਵੇਂ ਮੈਂਬਰ ਬਣਨ ਲਈ ਸ਼ੇਅਰ ਮਨੀ ਅਤੇ ਦਾਖਲਾ ਫੀਸ ਕਿੰਨੀ ਹੁੰਦੀ ਹੈ?",
+    "intent": "membership_rights",
+    "language": "pa"
+  },
+  {
+    "id": "int_100",
+    "query": "सभा दे मैंबरें दे हक ते वोट दे अधिकार दस्सो",
+    "intent": "membership_rights",
+    "language": "doi"
+  },
+  {
+    "id": "int_101",
+    "query": "one member one vote principle cooperative society act",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_102",
+    "query": "cessation of membership death disqualification share transfer",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_103",
+    "query": "member right to inspect books of accounts and balance sheet",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_104",
+    "query": "can nominal or associate member vote in election",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_105",
+    "query": "procedure to surrender membership and get refund of share money",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_106",
+    "query": "What are the audit provisions and penalties under the Punjab Cooperative Societies Act?",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_107",
+    "query": "Explain Section 63 of the Jammu and Kashmir Cooperative Societies Act 1989",
+    "intent": "legal_information",
+    "language": "en",
+    "section_ref": "63"
+  },
+  {
+    "id": "int_108",
+    "query": "What amendments were made in the Multi-State Cooperative Societies Act in 2023?",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_109",
+    "query": "पंजाब सहकारी समिति अधिनियम 1961 की मुख्य धाराएं और नियम क्या हैं?",
+    "intent": "legal_information",
+    "language": "hi"
+  },
+  {
+    "id": "int_110",
+    "query": "सहकारी समिति के वैधानिक ऑडिट और खातों की जांच के क्या कानूनी प्रावधान हैं?",
+    "intent": "legal_information",
+    "language": "hi"
+  },
+  {
+    "id": "int_111",
+    "query": "मल्टी स्टेट कोऑपरेटिव सोसाइटीज एक्ट 2002 की धारा 6 के तहत नियम बताएं",
+    "intent": "legal_information",
+    "language": "hi",
+    "section_ref": "6"
+  },
+  {
+    "id": "int_112",
+    "query": "ਪੰਜਾਬ ਸਹਿਕਾਰੀ ਸਭਾਵਾਂ ਐਕਟ 1961 ਦੀਆਂ ਮਹੱਤਵਪੂਰਨ ਧਾਰਾਵਾਂ ਕਿਹੜੀਆਂ ਹਨ?",
+    "intent": "legal_information",
+    "language": "pa"
+  },
+  {
+    "id": "int_113",
+    "query": "ਸਹਿਕਾਰੀ ਸੁਸਾਇਟੀਆਂ ਦਾ ਆਡਿਟ ਕੌਣ ਕਰਦਾ ਹੈ ਅਤੇ ਇਹ ਕਦੋਂ ਜ਼ਰੂਰੀ ਹੁੰਦਾ ਹੈ?",
+    "intent": "legal_information",
+    "language": "pa"
+  },
+  {
+    "id": "int_114",
+    "query": "ਸਾਲ 2021 ਦੀ ਗਜ਼ਟ ਨੋਟੀਫਿਕੇਸ਼ਨ ਤਹਿਤ ਕੀ ਕਾਨੂੰਨੀ ਸੋਧਾਂ ਹੋਈਆਂ ਹਨ?",
+    "intent": "legal_information",
+    "language": "pa"
+  },
+  {
+    "id": "int_115",
+    "query": "जम्मू कश्मीर सहकारी सभा कानून 1989 दे कानूनी नियम",
+    "intent": "legal_information",
+    "language": "doi"
+  },
+  {
+    "id": "int_116",
+    "query": "statutory audit timeline chartered accountant appointment rules",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_117",
+    "query": "cooperative act section legal provisions gazette notification",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_118",
+    "query": "rbi guidelines for rural cooperative banks and pacs",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_119",
+    "query": "model bye laws approved by ministry of cooperation for pacs",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_120",
+    "query": "powers of registrar for inspection and surcharge under the act",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_121",
+    "query": "What services are provided by Primary Agricultural Credit Societies (PACS)?",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_122",
+    "query": "How is PACS computerization helping farmers across the country?",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_123",
+    "query": "What is the role of the Ministry of Cooperation formed by the Government of India?",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_124",
+    "query": "सहकारी समितियां किसानों और ग्रामीण अर्थव्यवस्था को कैसे सशक्त बनाती हैं?",
+    "intent": "general_cooperative",
+    "language": "hi"
+  },
+  {
+    "id": "int_125",
+    "query": "पैक्स के कंप्यूटरीकरण से किसानों को क्या सुविधाएं मिलेंगी?",
+    "intent": "general_cooperative",
+    "language": "hi"
+  },
+  {
+    "id": "int_126",
+    "query": "सहकार से समृद्धि विजन के तहत कौन सी नई पहलें शुरू की गई हैं?",
+    "intent": "general_cooperative",
+    "language": "hi"
+  },
+  {
+    "id": "int_127",
+    "query": "ਸਹਿਕਾਰੀ ਸਭਾਵਾਂ ਕਿਸਾਨਾਂ ਨੂੰ ਖਾਦ ਅਤੇ ਬੀਜ ਕਿਵੇਂ ਸਪਲਾਈ ਕਰਦੀਆਂ ਹਨ?",
+    "intent": "general_cooperative",
+    "language": "pa"
+  },
+  {
+    "id": "int_128",
+    "query": "ਪੈਕਸ ਕੰਪਿਊਟਰੀਕਰਨ ਨਾਲ ਪਿੰਡਾਂ ਦੀਆਂ ਸਭਾਵਾਂ ਨੂੰ ਕੀ ਲਾਭ ਹੋਵੇਗਾ?",
+    "intent": "general_cooperative",
+    "language": "pa"
+  },
+  {
+    "id": "int_129",
+    "query": "ਸਹਿਕਾਰਤਾ ਵਿਭਾਗ ਦੇ ਮੁੱਖ ਕੰਮ ਅਤੇ ਯੋਜਨਾਵਾਂ ਕੀ ਹਨ?",
+    "intent": "general_cooperative",
+    "language": "pa"
+  },
+  {
+    "id": "int_130",
+    "query": "सहकारी सभाएं दे फाये ते पैक्स दी जानकरी",
+    "intent": "general_cooperative",
+    "language": "doi"
+  },
+  {
+    "id": "int_131",
+    "query": "sahkari samiti ke faayde aur gramin vikas me bhumika",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_132",
+    "query": "pacs common service centers csc banking business correspondent",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_133",
+    "query": "information regarding cooperative sugar mills and dairy federation",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_134",
+    "query": "general inquiry about cooperative movement in northern india",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_135",
+    "query": "what is sahyogsetu cooperative assistant portal",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_015b_1",
+    "query": "What are the bye-laws requirements for registration of PACS under state rules?",
+    "intent": "cooperative_registration",
+    "language": "en"
+  },
+  {
+    "id": "int_015b_2",
+    "query": "Registration of cooperative societies with limited liability under Section 4",
+    "intent": "cooperative_registration",
+    "language": "en",
+    "section_ref": "4"
+  },
+  {
+    "id": "int_015b_3",
+    "query": "नयी दुग्ध सहकारी समिति के पंजीकरण हेतु उपायुक्त या रजिस्ट्रार की स्वीकृति कैसे लें?",
+    "intent": "cooperative_registration",
+    "language": "hi"
+  },
+  {
+    "id": "int_015b_4",
+    "query": "सहकारी समिति के उपनियम कैसे तैयार करें और पंजीयक को कैसे प्रस्तुत करें?",
+    "intent": "cooperative_registration",
+    "language": "hi"
+  },
+  {
+    "id": "int_015b_5",
+    "query": "पंजीकरण प्रमाण पत्र कितने दिनों के भीतर जारी किया जाता है?",
+    "intent": "cooperative_registration",
+    "language": "hi"
+  },
+  {
+    "id": "int_015b_6",
+    "query": "ਪੰਜਾਬ ਸਹਿਕਾਰੀ ਸਭਾਵਾਂ ਐਕਟ ਦੀ ਧਾਰਾ 8 ਅਧੀਨ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਦੀਆਂ ਸ਼ਰਤਾਂ ਕੀ ਹਨ?",
+    "intent": "cooperative_registration",
+    "language": "pa",
+    "section_ref": "8"
+  },
+  {
+    "id": "int_015b_7",
+    "query": "ਸੁਸਾਇਟੀ ਦੇ ਬਾਈ-ਲਾਜ਼ ਜਾਂ ਉਪ-ਨਿਯਮ ਰਜਿਸਟਰ ਕਰਵਾਉਣ ਦਾ ਨਿਯਮ ਦੱਸੋ।",
+    "intent": "cooperative_registration",
+    "language": "pa"
+  },
+  {
+    "id": "int_015b_8",
+    "query": "ਨਵੀਂ ਸੁਸਾਇਟੀ ਬਣਾਉਣ ਲਈ ਡਿਪਟੀ ਰਜਿਸਟਰਾਰ ਦੇ ਦਫ਼ਤਰ ਕਿਹੜੇ ਕਾਗਜ਼ ਜਮ੍ਹਾਂ ਹੁੰਦੇ ਹਨ?",
+    "intent": "cooperative_registration",
+    "language": "pa"
+  },
+  {
+    "id": "int_015b_9",
+    "query": "जम्मू च समिति पंजीकरण खातर किन्ने रुपये फीस लगदी ऐ?",
+    "intent": "cooperative_registration",
+    "language": "doi"
+  },
+  {
+    "id": "int_015b_10",
+    "query": "नई सभा बनाने वास्ते फार्म ए कन्ने जमीन दी नकल लानी जरूरी ऐ।",
+    "intent": "cooperative_registration",
+    "language": "doi"
+  },
+  {
+    "id": "int_015b_11",
+    "query": "गाम म्ह नई समिति बणाण खातर दस आदमियां के दस्तखत जरूरी सैं।",
+    "intent": "cooperative_registration",
+    "language": "bgc"
+  },
+  {
+    "id": "int_015b_12",
+    "query": "nayi pacs samiti formation application form aur dastawej",
+    "intent": "cooperative_registration",
+    "language": "en"
+  },
+  {
+    "id": "int_030b_1",
+    "query": "What are the qualifications and disqualifications of members of committee under Section 26?",
+    "intent": "elections_governance",
+    "language": "en",
+    "section_ref": "26"
+  },
+  {
+    "id": "int_030b_2",
+    "query": "Can the managing committee be superseded by the Registrar for financial irregularities?",
+    "intent": "elections_governance",
+    "language": "en"
+  },
+  {
+    "id": "int_030b_3",
+    "query": "सहकारी समिति के संचालक मंडल के चुनाव की प्रक्रिया और निर्वाचन अधिकारी की भूमिका क्या है?",
+    "intent": "elections_governance",
+    "language": "hi"
+  },
+  {
+    "id": "int_030b_4",
+    "query": "धारा 28 के तहत प्रबंध समिति के सदस्यों की अयोग्यता के क्या नियम हैं?",
+    "intent": "elections_governance",
+    "language": "hi",
+    "section_ref": "28"
+  },
+  {
+    "id": "int_030b_5",
+    "query": "समिति के सभापति और उपसभापति का चुनाव कैसे संपन्न कराया जाता है?",
+    "intent": "elections_governance",
+    "language": "hi"
+  },
+  {
+    "id": "int_030b_6",
+    "query": "ਸੁਸਾਇਟੀ ਦੀ ਪ੍ਰਬੰਧਕ ਕਮੇਟੀ ਭੰਗ ਹੋਣ 'ਤੇ ਪ੍ਰਬੰਧਕ ਜਾਂ ਐਡਮਿਨਿਸਟਰੇਟਰ ਕੌਣ ਲਾਉਂਦਾ ਹੈ?",
+    "intent": "elections_governance",
+    "language": "pa"
+  },
+  {
+    "id": "int_030b_7",
+    "query": "ਕਮੇਟੀ ਮੈਂਬਰ ਦੀ ਚੋਣ ਲੜਨ ਲਈ ਡਿਫਾਲਟਰ ਨਾ ਹੋਣ ਦੀ ਸ਼ਰਤ ਕੀ ਹੈ?",
+    "intent": "elections_governance",
+    "language": "pa"
+  },
+  {
+    "id": "int_030b_8",
+    "query": "ਚੋਣਾਂ ਵਿੱਚ ਵੋਟਰ ਲਿਸਟ ਉੱਤੇ ਇਤਰਾਜ਼ ਦਰਜ ਕਰਵਾਉਣ ਦੀ ਮਿਆਦ ਕਿੰਨੀ ਹੁੰਦੀ ਹੈ?",
+    "intent": "elections_governance",
+    "language": "pa"
+  },
+  {
+    "id": "int_030b_9",
+    "query": "कमेटी दे चुनाव च वोट पाने खातर मेंबर दा नाम लिस्ट च होना चाहीदा।",
+    "intent": "elections_governance",
+    "language": "doi"
+  },
+  {
+    "id": "int_030b_10",
+    "query": "सभा दे प्रधान दी कुर्सी खातर चुनाव कद होग्या?",
+    "intent": "elections_governance",
+    "language": "doi"
+  },
+  {
+    "id": "int_030b_11",
+    "query": "म्हारी समिति की कमेटी म्ह महिला खातर दो सीटां आरक्षित सैं।",
+    "intent": "elections_governance",
+    "language": "bgc"
+  },
+  {
+    "id": "int_030b_12",
+    "query": "board of directors election procedure and returning officer appointment",
+    "intent": "elections_governance",
+    "language": "en"
+  },
+  {
+    "id": "int_045b_1",
+    "query": "What is the maximum crop loan limit under KCC scheme for multi-cropping farmers?",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_045b_2",
+    "query": "Interest subvention rate of 3 percent for prompt repayment of short-term agricultural loans",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_045b_3",
+    "query": "किसान क्रेडिट कार्ड की सीमा में हर साल 10 प्रतिशत की बढ़ोतरी का क्या नियम है?",
+    "intent": "financial_assistance_kcc",
+    "language": "hi"
+  },
+  {
+    "id": "int_045b_4",
+    "query": "केसीसी ऋण पर सरकार द्वारा दी जाने वाली 2 प्रतिशत ब्याज छूट कैसे मिलती है?",
+    "intent": "financial_assistance_kcc",
+    "language": "hi"
+  },
+  {
+    "id": "int_045b_5",
+    "query": "मत्स्य पालन और डेयरी के लिए दो लाख रुपये तक का ब्याज मुक्त ऋण कैसे प्राप्त करें?",
+    "intent": "financial_assistance_kcc",
+    "language": "hi"
+  },
+  {
+    "id": "int_045b_6",
+    "query": "ਪੰਜਾਬ ਵਿੱਚ ਫਸਲੀ ਕਰਜ਼ੇ ਦੀ ਸੀਮਾ ਕਿਵੇਂ ਤੈਅ ਹੁੰਦੀ ਹੈ?",
+    "intent": "financial_assistance_kcc",
+    "language": "pa"
+  },
+  {
+    "id": "int_045b_7",
+    "query": "ਕੇਸੀਸੀ ਕਰਜ਼ਾ ਵਾਪਸ ਕਰਨ ਦੀ ਆਖਰੀ ਮਿਤੀ ਕੀ ਹੁੰਦੀ ਹੈ?",
+    "intent": "financial_assistance_kcc",
+    "language": "pa"
+  },
+  {
+    "id": "int_045b_8",
+    "query": "ਸਹਿਕਾਰੀ ਬੈਂਕ ਤੋਂ ਖਾਦ ਅਤੇ ਕੀਟਨਾਸ਼ਕਾਂ ਲਈ ਕਰਜ਼ਾ ਚੈੱਕ ਕਿਵੇਂ ਮਿਲਦਾ ਹੈ?",
+    "intent": "financial_assistance_kcc",
+    "language": "pa"
+  },
+  {
+    "id": "int_045b_9",
+    "query": "केसीसी दा कर्जा बैंक कन्ने किकण रिन्यू कराना पौंदा ऐ?",
+    "intent": "financial_assistance_kcc",
+    "language": "doi"
+  },
+  {
+    "id": "int_045b_10",
+    "query": "समय पर कर्जा वापस करने कन्ने चार परसेंट ब्याज लगदा ऐ।",
+    "intent": "financial_assistance_kcc",
+    "language": "doi"
+  },
+  {
+    "id": "int_045b_11",
+    "query": "केसीसी पै फसली करजा लेण खातर हरको बैंक म्ह कागद जमा करवा दियो।",
+    "intent": "financial_assistance_kcc",
+    "language": "bgc"
+  },
+  {
+    "id": "int_045b_12",
+    "query": "short term production credit limit and subvention eligibility",
+    "intent": "financial_assistance_kcc",
+    "language": "en"
+  },
+  {
+    "id": "int_060b_1",
+    "query": "How can a farmer update bank account and IFSC code on PM-KISAN portal?",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_060b_2",
+    "query": "What to do if PM Kisan status shows land seeding no?",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_060b_3",
+    "query": "पीएम किसान योजना में आधार सीडिंग और डीबीटी सक्रिय कराने का तरीका क्या है?",
+    "intent": "government_schemes_pmkisan",
+    "language": "hi"
+  },
+  {
+    "id": "int_060b_4",
+    "query": "क्या पति और पत्नी दोनों को एक साथ पीएम किसान का लाभ मिल सकता है?",
+    "intent": "government_schemes_pmkisan",
+    "language": "hi"
+  },
+  {
+    "id": "int_060b_5",
+    "query": "पीएम किसान सम्मान निधि की अपात्रता सूची में कौन-कौन शामिल हैं?",
+    "intent": "government_schemes_pmkisan",
+    "language": "hi"
+  },
+  {
+    "id": "int_060b_6",
+    "query": "ਪੀਐਮ ਕਿਸਾਨ ਪੋਰਟਲ 'ਤੇ ਈ-ਕੇਵਾਈਸੀ ਅੰਗੂਠੇ ਜਾਂ ਓਟੀਪੀ ਰਾਹੀਂ ਕਿਵੇਂ ਕਰੀਏ?",
+    "intent": "government_schemes_pmkisan",
+    "language": "pa"
+  },
+  {
+    "id": "int_060b_7",
+    "query": "ਜੇਕਰ ਜ਼ਮੀਨ ਦੀ ਸੀਡਿੰਗ ਨਾ ਹੋਵੇ ਤਾਂ ਪਟਵਾਰੀ ਤੋਂ ਤਸਦੀਕ ਕਿਵੇਂ ਕਰਵਾਈਏ?",
+    "intent": "government_schemes_pmkisan",
+    "language": "pa"
+  },
+  {
+    "id": "int_060b_8",
+    "query": "ਕਿਸਾਨ ਸਨਮਾਨ ਨਿਧੀ ਦੀ ਰੁਕੀ ਹੋਈ ਕਿਸ਼ਤ ਵਾਪਸ ਲੈਣ ਦਾ ਤਰੀਕਾ ਕੀ ਹੈ?",
+    "intent": "government_schemes_pmkisan",
+    "language": "pa"
+  },
+  {
+    "id": "int_060b_9",
+    "query": "पीएम किसान दे पैसे बैंक खाते च नी पौंदे तां केहड़े पोर्टल पै जाना?",
+    "intent": "government_schemes_pmkisan",
+    "language": "doi"
+  },
+  {
+    "id": "int_060b_10",
+    "query": "सालाना छह हजार रुपये दी किस्त मिलने दी पात्रता केहड़ी ऐ?",
+    "intent": "government_schemes_pmkisan",
+    "language": "doi"
+  },
+  {
+    "id": "int_060b_11",
+    "query": "म्हारी पीएम किसान की किस्त रुक गी, पटवारी कै फर्द जमा कराणी सै।",
+    "intent": "government_schemes_pmkisan",
+    "language": "bgc"
+  },
+  {
+    "id": "int_060b_12",
+    "query": "pm kisan samman nidhi dbt transfer and land record verification",
+    "intent": "government_schemes_pmkisan",
+    "language": "en"
+  },
+  {
+    "id": "int_075b_1",
+    "query": "What is the procedure for assessment of localized calamities like hailstorm under PMFBY?",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_075b_2",
+    "query": "Post-harvest crop damage coverage for crops spread in field within 14 days of harvesting",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_075b_3",
+    "query": "फसल कटाई के बाद खेत में सूखने के लिए रखी फसल के नुकसान पर बीमा दावा कैसे मिलता है?",
+    "intent": "pmfby_crop_insurance",
+    "language": "hi"
+  },
+  {
+    "id": "int_075b_4",
+    "query": "फसल बीमा योजना में नुकसान का आकलन करने के लिए सर्वेयर कितने दिन में आता है?",
+    "intent": "pmfby_crop_insurance",
+    "language": "hi"
+  },
+  {
+    "id": "int_075b_5",
+    "query": "बीमा क्लेम खारिज होने पर जिला स्तरीय शिकायत निवारण समिति में अपील कैसे करें?",
+    "intent": "pmfby_crop_insurance",
+    "language": "hi"
+  },
+  {
+    "id": "int_075b_6",
+    "query": "ਫਸਲ ਬੀਮੇ ਦਾ ਕਲੇਮ ਬੈਂਕ ਜਾਂ ਬੀਮਾ ਕੰਪਨੀ ਵੱਲੋਂ ਕਿੰਨੇ ਦਿਨਾਂ ਵਿੱਚ ਮਿਲਦਾ ਹੈ?",
+    "intent": "pmfby_crop_insurance",
+    "language": "pa"
+  },
+  {
+    "id": "int_075b_7",
+    "query": "ਮੀਂਹ ਅਤੇ ਹੜ੍ਹਾਂ ਨਾਲ ਖਰਾਬ ਹੋਈ ਫਸਲ ਦਾ ਸਰਵੇ ਕਰਵਾਉਣ ਦਾ ਤਰੀਕਾ ਕੀ ਹੈ?",
+    "intent": "pmfby_crop_insurance",
+    "language": "pa"
+  },
+  {
+    "id": "int_075b_8",
+    "query": "ਖੇਤੀਬਾੜੀ ਅਧਿਕਾਰੀ ਕੋਲ ਫਸਲ ਨੁਕਸਾਨ ਦੀ ਲਿਖਤੀ ਸ਼ਿਕਾਇਤ ਕਿਵੇਂ ਦਰਜ ਕਰਵਾਈਏ?",
+    "intent": "pmfby_crop_insurance",
+    "language": "pa"
+  },
+  {
+    "id": "int_075b_9",
+    "query": "फसल नुकसान दा जायजा लेने खातर पटवारी ते अफसर कद औनगे?",
+    "intent": "pmfby_crop_insurance",
+    "language": "doi"
+  },
+  {
+    "id": "int_075b_10",
+    "query": "ओलावृष्टि कन्ने सारी कनक खराब होई गेदी ऐ, क्लेम किकण मिलग्या?",
+    "intent": "pmfby_crop_insurance",
+    "language": "doi"
+  },
+  {
+    "id": "int_075b_11",
+    "query": "ओले पड़ण तै फसल नष्ट हो गी, बहत्तर घंटे भीतर कृषि विभाग म्ह रपट लिखवा दियो।",
+    "intent": "pmfby_crop_insurance",
+    "language": "bgc"
+  },
+  {
+    "id": "int_075b_12",
+    "query": "pmfby claim settlement timeline and grievance redressal committee",
+    "intent": "pmfby_crop_insurance",
+    "language": "en"
+  },
+  {
+    "id": "int_090b_1",
+    "query": "What is the limitation period for referring a dispute to arbitration under Section 56?",
+    "intent": "grievance_arbitration",
+    "language": "en",
+    "section_ref": "56"
+  },
+  {
+    "id": "int_090b_2",
+    "query": "Power of Registrar to direct payment of debt or surcharge under Section 54",
+    "intent": "grievance_arbitration",
+    "language": "en",
+    "section_ref": "54"
+  },
+  {
+    "id": "int_090b_3",
+    "query": "रजिस्ट्रार द्वारा नियुक्त मध्यस्थ के निर्णय के विरुद्ध सहकारी न्यायाधिकरण में अपील की अवधि क्या है?",
+    "intent": "grievance_arbitration",
+    "language": "hi"
+  },
+  {
+    "id": "int_090b_4",
+    "query": "समिति के सचिव द्वारा धन के दुरुपयोग पर धारा 68 के तहत सरचार्ज कार्रवाई कैसे होती है?",
+    "intent": "grievance_arbitration",
+    "language": "hi",
+    "section_ref": "68"
+  },
+  {
+    "id": "int_090b_5",
+    "query": "विवाद निपटाने के लिए आर्बिट्रेशन कोर्ट की फीस और प्रक्रिया क्या होती है?",
+    "intent": "grievance_arbitration",
+    "language": "hi"
+  },
+  {
+    "id": "int_090b_6",
+    "query": "ਸਹਿਕਾਰੀ ਸੁਸਾਇਟੀ ਦੇ ਵਿਵਾਦ ਵਿੱਚ ਸਾਲਸ ਜਾਂ ਆਰਬਿਟ੍ਰੇਟਰ ਦਾ ਫੈਸਲਾ ਕਿਵੇਂ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?",
+    "intent": "grievance_arbitration",
+    "language": "pa"
+  },
+  {
+    "id": "int_090b_7",
+    "query": "ਗਬਨ ਦੇ ਮਾਮਲੇ ਵਿੱਚ ਪੁਲਿਸ ਰਿਪੋਰਟ ਜਾਂ ਰਜਿਸਟਰਾਰ ਕੋਲ ਸ਼ਿਕਾਇਤ ਦਰਜ ਕਰਵਾਉਣ ਦੇ ਨਿਯਮ ਕੀ ਹਨ?",
+    "intent": "grievance_arbitration",
+    "language": "pa"
+  },
+  {
+    "id": "int_090b_8",
+    "query": "ਸਹਿਕਾਰੀ ਟ੍ਰਿਬਿਊਨਲ ਕੋਲ ਅਪੀਲ ਦਾਇਰ ਕਰਨ ਦੀ ਮਿਆਦ ਕਿੰਨੀ ਹੁੰਦੀ ਹੈ?",
+    "intent": "grievance_arbitration",
+    "language": "pa"
+  },
+  {
+    "id": "int_090b_9",
+    "query": "रजिस्ट्रार दी कचहरी च विवाद सुलझाने खातर दरखास्त किकण देनी ऐ?",
+    "intent": "grievance_arbitration",
+    "language": "doi"
+  },
+  {
+    "id": "int_090b_10",
+    "query": "अगर कमेटी दा फैसला मंजूर नी होवे तां कुत्थै अपील करिए?",
+    "intent": "grievance_arbitration",
+    "language": "doi"
+  },
+  {
+    "id": "int_090b_11",
+    "query": "समिति म्ह गबन होग्या सै तां डिप्टी रजिस्ट्रार कै जांच की अरजी लाणी सै।",
+    "intent": "grievance_arbitration",
+    "language": "bgc"
+  },
+  {
+    "id": "int_090b_12",
+    "query": "cooperative dispute arbitration reference procedure and limitation period",
+    "intent": "grievance_arbitration",
+    "language": "en"
+  },
+  {
+    "id": "int_105b_1",
+    "query": "What are the liabilities of a past member and estate of a deceased member?",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_105b_2",
+    "query": "Restrictions on transfer of shares or interest in a cooperative society",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_105b_3",
+    "query": "क्या कोई व्यक्ति एक ही समय में दो प्राथमिक कृषि ऋण समितियों का सदस्य बन सकता है?",
+    "intent": "membership_rights",
+    "language": "hi"
+  },
+  {
+    "id": "int_105b_4",
+    "query": "मृतक सदस्य के अंश और हिस्से का कानूनी वारिस को हस्तांतरण कैसे होता है?",
+    "intent": "membership_rights",
+    "language": "hi"
+  },
+  {
+    "id": "int_105b_5",
+    "query": "सदस्यों को लाभांश या डिविडेंड वितरण के क्या नियम हैं?",
+    "intent": "membership_rights",
+    "language": "hi"
+  },
+  {
+    "id": "int_105b_6",
+    "query": "ਸਹਿਕਾਰੀ ਸੁਸਾਇਟੀ ਵਿੱਚ ਮੈਂਬਰ ਦੇ ਸ਼ੇਅਰ ਤਬਦੀਲ ਕਰਨ ਦਾ ਕਾਨੂੰਨੀ ਨਿਯਮ ਕੀ ਹੈ?",
+    "intent": "membership_rights",
+    "language": "pa"
+  },
+  {
+    "id": "int_105b_7",
+    "query": "ਕੀ ਮੈਂਬਰ ਸੁਸਾਇਟੀ ਦੇ ਰਿਕਾਰਡ ਅਤੇ ਆਡਿਟ ਰਿਪੋਰਟ ਦੇਖਣ ਦੀ ਮੰਗ ਕਰ ਸਕਦਾ ਹੈ?",
+    "intent": "membership_rights",
+    "language": "pa"
+  },
+  {
+    "id": "int_105b_8",
+    "query": "ਸੁਸਾਇਟੀ ਦੇ ਮੁਨਾਫੇ ਵਿੱਚੋਂ ਮੈਂਬਰਾਂ ਨੂੰ ਬੋਨਸ ਜਾਂ ਲਾਭਅੰਸ਼ ਕਿਵੇਂ ਵੰਡਿਆ ਜਾਂਦਾ ਹੈ?",
+    "intent": "membership_rights",
+    "language": "pa"
+  },
+  {
+    "id": "int_105b_9",
+    "query": "ਮੈਂਬਰ ਬਣਨ ਖਾਤਰ ਕਿੰਨੀ ਜ਼ਮੀਨ ਜਾਂ ਸ਼ੇਅਰ ਖਰੀਦਣੇ ਪੈਂਦੇ ਹਨ?",
+    "intent": "membership_rights",
+    "language": "pa"
+  },
+  {
+    "id": "int_105b_10",
+    "query": "मैंबरें गी सभा दे मुनाफे च हिस्सा ते डिविडेंड किकण मिलदा ऐ?",
+    "intent": "membership_rights",
+    "language": "doi"
+  },
+  {
+    "id": "int_105b_11",
+    "query": "म्हारी समिति म्ह मैंबर बणन खातर आवेदन पत्र कित्तै जमा कराणा पड़ैगा?",
+    "intent": "membership_rights",
+    "language": "bgc"
+  },
+  {
+    "id": "int_105b_12",
+    "query": "rights of members inspection of books and annual balance sheet",
+    "intent": "membership_rights",
+    "language": "en"
+  },
+  {
+    "id": "int_120b_1",
+    "query": "Provisions of Section 48 regarding statutory audit and appointment of auditors",
+    "intent": "legal_information",
+    "language": "en",
+    "section_ref": "48"
+  },
+  {
+    "id": "int_120b_2",
+    "query": "What are the powers of the Registrar to inspect books of indebted societies?",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_120b_3",
+    "query": "सहकारी समिति अधिनियम की धारा 102 के अंतर्गत कानूनी प्रावधानों की व्याख्या करें",
+    "intent": "legal_information",
+    "language": "hi",
+    "section_ref": "102"
+  },
+  {
+    "id": "int_120b_4",
+    "query": "सहकारी संस्थाओं के खातों के विशेष अंकेक्षण और जांच के नियम क्या हैं?",
+    "intent": "legal_information",
+    "language": "hi"
+  },
+  {
+    "id": "int_120b_5",
+    "query": "अधिनियम के तहत रजिस्ट्रार के अधिकार और कर्तव्य क्या हैं?",
+    "intent": "legal_information",
+    "language": "hi"
+  },
+  {
+    "id": "int_120b_6",
+    "query": "ਪੰਜਾਬ ਸਹਿਕਾਰੀ ਸਭਾਵਾਂ ਐਕਟ 1961 ਦੀ ਧਾਰਾ 55 ਤਹਿਤ ਵਿਧਾਨਕ ਨਿਯਮ ਕੀ ਹਨ?",
+    "intent": "legal_information",
+    "language": "pa",
+    "section_ref": "55"
+  },
+  {
+    "id": "int_120b_7",
+    "query": "ਕੋਆਪਰੇਟਿਵ ਸੁਸਾਇਟੀਜ਼ ਐਕਟ ਦੀਆਂ ਸੋਧਾਂ ਅਤੇ ਸਰਕਾਰੀ ਗਜ਼ਟ ਨੋਟੀਫਿਕੇਸ਼ਨ ਦਾ ਵੇਰਵਾ।",
+    "intent": "legal_information",
+    "language": "pa"
+  },
+  {
+    "id": "int_120b_8",
+    "query": "ਸਹਿਕਾਰੀ ਸੁਸਾਇਟੀ ਦੇ ਹਿਸਾਬ ਕਿਤਾਬ ਦੀ ਵਿਸ਼ੇਸ਼ ਜਾਂਚ ਦੇ ਹੁਕਮ ਕੌਣ ਜਾਰੀ ਕਰ ਸਕਦਾ ਹੈ?",
+    "intent": "legal_information",
+    "language": "pa"
+  },
+  {
+    "id": "int_120b_9",
+    "query": "जम्मू कश्मीर सहकारी कानून दी धारा तिरਹਠ दे तहत आडिट दी जानकारी।",
+    "intent": "legal_information",
+    "language": "doi",
+    "section_ref": "63"
+  },
+  {
+    "id": "int_120b_10",
+    "query": "सहकारी कानून दे तहत सरकारी गजट नोटिफिकेशन किकण देखनी?",
+    "intent": "legal_information",
+    "language": "doi"
+  },
+  {
+    "id": "int_120b_11",
+    "query": "हरियाणा सहकारी सोसायटी कानून उन्नी सौ चौरासी की मुख्य धाराएं और उपनियम।",
+    "intent": "legal_information",
+    "language": "bgc"
+  },
+  {
+    "id": "int_120b_12",
+    "query": "statutory legal provisions cooperative societies act and registrar powers",
+    "intent": "legal_information",
+    "language": "en"
+  },
+  {
+    "id": "int_135b_1",
+    "query": "What are the advantages of organizing farmers into cooperative societies?",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_135b_2",
+    "query": "How do cooperative marketing federations ensure remunerative prices for crops?",
+    "intent": "general_cooperative",
+    "language": "en"
+  },
+  {
+    "id": "int_135b_3",
+    "query": "सहकारी आंदोलन का मुख्य उद्देश्य और ग्रामीण विकास में इसका महत्व बताएं।",
+    "intent": "general_cooperative",
+    "language": "hi"
+  },
+  {
+    "id": "int_135b_4",
+    "query": "सहकारी विपणन समितियों के माध्यम से किसानों की फसलों की खरीद कैसे की जाती है?",
+    "intent": "general_cooperative",
+    "language": "hi"
+  },
+  {
+    "id": "int_135b_5",
+    "query": "पैक्स समितियों में खाद, बीज और कृषि उपकरणों के वितरण की क्या व्यवस्था है?",
+    "intent": "general_cooperative",
+    "language": "hi"
+  },
+  {
+    "id": "int_135b_6",
+    "query": "ਪੰਜਾਬ ਵਿੱਚ ਮਾਰਕਫੈੱਡ ਅਤੇ ਸ਼ੂਗਰਫੈੱਡ ਦਾ ਕਿਸਾਨਾਂ ਲਈ ਕੀ ਯੋਗਦਾਨ ਹੈ?",
+    "intent": "general_cooperative",
+    "language": "pa"
+  },
+  {
+    "id": "int_135b_7",
+    "query": "ਪਿੰਡਾਂ ਵਿੱਚ ਸਹਿਕਾਰੀ ਸੁਸਾਇਟੀਆਂ ਵੱਲੋਂ ਚਲਾਏ ਜਾ ਰਹੇ ਕਾਮਨ ਸਰਵਿਸ ਸੈਂਟਰਾਂ ਬਾਰੇ ਦੱਸੋ।",
+    "intent": "general_cooperative",
+    "language": "pa"
+  },
+  {
+    "id": "int_135b_8",
+    "query": "ਸਹਿਕਾਰੀ ਲਹਿਰ ਨਾਲ ਜੁੜਨ ਨਾਲ ਕਿਸਾਨਾਂ ਨੂੰ ਆਰਥਿਕ ਤੌਰ 'ਤੇ ਕੀ ਲਾਭ ਹੁੰਦਾ ਹੈ?",
+    "intent": "general_cooperative",
+    "language": "pa"
+  },
+  {
+    "id": "int_135b_9",
+    "query": "सहकारी संस्थाएं कन्ने जुड़ने पर जमींदारें गी केहड़ा फायदा औंदा ऐ?",
+    "intent": "general_cooperative",
+    "language": "doi"
+  },
+  {
+    "id": "int_135b_10",
+    "query": "साढ़े इलाके च सहकारी बैंक ते पैक्स दी शाखा कित्थै ऐ?",
+    "intent": "general_cooperative",
+    "language": "doi"
+  },
+  {
+    "id": "int_135b_11",
+    "query": "सहकारी समिति गाम के विकास म्ह किकण मदद करै सै?",
+    "intent": "general_cooperative",
+    "language": "bgc"
+  },
+  {
+    "id": "int_135b_12",
+    "query": "overview of primary agricultural credit societies and rural banking",
+    "intent": "general_cooperative",
+    "language": "en"
+  }
+]
